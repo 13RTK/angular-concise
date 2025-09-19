@@ -1,12 +1,32 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrl: './app.css',
 })
 export class App {
-  protected readonly title = signal('angular-form');
+  username = '';
+  password = '';
+
+  handleUsernameInput(event: Event) {
+    this.username = (event.target as HTMLInputElement).value;
+  }
+
+  handlePasswordInput(event: Event) {
+    this.password = (event.target as HTMLInputElement).value;
+  }
+
+  handleSubmit(event: Event) {
+    event.preventDefault();
+
+    if (!this.username || !this.password) {
+      alert('Please enter username and password');
+      return;
+    }
+
+    alert(`Username: ${this.username}\nPassword: ${this.password}`);
+
+    this.username = this.password = '';
+  }
 }
