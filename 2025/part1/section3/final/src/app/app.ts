@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
+  imports: [FormsModule],
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.css',
@@ -8,14 +10,6 @@ import { Component } from '@angular/core';
 export class App {
   username = '';
   password = '';
-
-  handleUsernameInput(event: Event) {
-    this.username = (event.target as HTMLInputElement).value;
-  }
-
-  handlePasswordInput(event: Event) {
-    this.password = (event.target as HTMLInputElement).value;
-  }
 
   handleSubmit(event: Event) {
     event.preventDefault();

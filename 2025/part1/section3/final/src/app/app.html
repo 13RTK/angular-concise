@@ -1,12 +1,12 @@
 <h1>Hello, angular-form</h1>
 <form (submit)="handleSubmit($event)">
   <label for="username">username</label>
-  <input type="text" name="username" [value]="username" (input)="handleUsernameInput($event)" />
+  <input type="text" name="username" [(ngModel)]="username" />
   <br />
   <br />
 
   <label for="password">password</label>
-  <input type="password" name="password" [value]="password" (input)="handlePasswordInput($event)" />
+  <input type="password" name="password" [(ngModel)]="password" />
   <br />
   <br />
 
