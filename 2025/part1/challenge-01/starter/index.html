@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <title>Angular Concise Challenge - 01</title>
+  </head>
+  <body>
+    <div id="app">
+      <h2>CSS3 Perspective Playground</h2>
+      <main>
+        <section class="settings">
+          <div class="settings-container">
+            <!-- TODO: Add two-way binding and text interpolation -->
+            <label>perspective: X px;</label>
+            <input title="perspective" type="range" min="0" max="999" />
+
+            <!-- TODO: Add two-way binding and text interpolation -->
+            <label>rotateX: X deg; </label>
+            <input title="rotateX" type="range" min="-180" max="180" />
+
+            <!-- TODO: Add two-way binding and text interpolation -->
+            <label>rotateY: X deg; </label>
+            <input title="rotateY" type="range" min="-180" max="180" />
+
+            <!-- TODO: Add two-way binding and text interpolation -->
+            <label>rotateZ: X deg; </label>
+            <input title="rotateZ" type="range" min="-180" max="180" />
+
+            <!-- TODO: Add event listener -->
+            <button type="button">Reset</button>
+          </div>
+        </section>
+        <section class="output">
+          <div class="box-container">
+            <!-- TODO: Set style -->
+            <div class="box"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
