@@ -1,0 +1,14 @@
+<h1>Hello, angular-form</h1>
+<form (submit)="handleSubmit($event)">
+  <label for="username">username</label>
+  <input [class]="isUsernameValid()" type="text" name="username" [(ngModel)]="username" />
+  <br />
+  <br />
+
+  <label for="password">password</label>
+  <input [class]="isPasswordValid()" type="password" name="password" [(ngModel)]="password" />
+  <br />
+  <br />
+
+  <button type="submit">Submit</button>
+</form>
