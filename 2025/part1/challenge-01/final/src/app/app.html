@@ -1,0 +1,25 @@
+<h2>CSS3 Perspective Playground</h2>
+<main>
+  <section class="settings">
+    <div class="settings-container">
+      <label>perspective: {{ perspective() }} px;</label>
+      <input title="perspective" type="range" min="0" max="999" [(ngModel)]="perspective" />
+
+      <label>rotateX: {{ rotateX() }} deg; </label>
+      <input title="rotateX" type="range" min="-180" max="180" [(ngModel)]="rotateX" />
+
+      <label>rotateY: {{ rotateY() }} deg; </label>
+      <input title="rotateY" type="range" min="-180" max="180" [(ngModel)]="rotateY" />
+
+      <label>rotateZ: {{ rotateZ() }} deg; </label>
+      <input title="rotateZ" type="range" min="-180" max="180" [(ngModel)]="rotateZ" />
+
+      <button type="button" (click)="handleReset()">Reset</button>
+    </div>
+  </section>
+  <section class="output">
+    <div class="box-container">
+      <div class="box" [style]="transformStyle()"></div>
+    </div>
+  </section>
+</main>
