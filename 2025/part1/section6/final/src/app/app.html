@@ -2,14 +2,15 @@
 <hr />
 <br />
 
-<input placeholder="Enter content to add" />
+<input placeholder="Enter content to add" [(ngModel)]="inputText" />
 <br />
 <br />
-<button>Add</button>
+<button (click)="handleClickAdd()">Add</button>
 <br />
 <br />
 
-<!-- TODO: Render the todo List via Angular list render -->
 <ul>
-  <li>demo<button>&times;</button></li>
+  @for (todo of todoList(); track todo.id) {
+  <li>{{ todo.value }}<button (click)="handleClickDelete(todo.id)">&times;</button></li>
+  }
 </ul>
