@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  margin: 5px;
+}
+
+.delete {
+  text-decoration: line-through;
+}

@@ -1,0 +1,21 @@
+<h1>Todo List With Angular</h1>
+<hr />
+<br />
+
+<input placeholder="Enter content to add" [(ngModel)]="inputText" />
+<br />
+<br />
+<button (click)="handleClickAdd()">Add</button>
+<br />
+<br />
+
+<ul>
+  <!-- TODO:
+    1. Once the todoList is empty, show the message "Todo List Is Empty"(@if)
+    2. Add Complete button to complete the todo with delete line style(attach .delete selector in styles.css on the li element)
+    3. Hide the Complete button after the todo is completed(@if)
+   -->
+  @for (todo of todoList(); track todo.id) {
+  <li>{{ todo.value }}<button (click)="handleClickDelete(todo.id)">&times;</button></li>
+  }
+</ul>
