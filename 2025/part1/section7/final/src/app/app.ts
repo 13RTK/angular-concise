@@ -1,5 +1,6 @@
 import { Component, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { Todo } from '../types/Todo';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ export class App {
         {
           id: currentTodoList.length + 1,
           value: this.inputText(),
+          isComplete: false,
         },
       ];
     });
@@ -29,16 +31,31 @@ export class App {
     });
   }
 
-  todoList = signal([
-    { id: 1, value: 'Vue' },
-    { id: 2, value: 'Angular' },
-    { id: 3, value: 'React' },
-    { id: 4, value: 'Nuxt' },
-    { id: 5, value: 'NextJS' },
-    { id: 6, value: 'Node' },
-    { id: 7, value: 'NestJS' },
-    { id: 8, value: 'React Native' },
-    { id: 9, value: 'Electron' },
-    { id: 10, value: 'Rust' },
+  handleClickComplete(id: number) {
+    this.todoList.update((currentTodoList) => {
+      return currentTodoList.map((todo) => {
+        if (todo.id === id) {
+          return {
+            ...todo,
+            isComplete: true,
+          };
+        }
+
+        return todo;
+      });
+    });
+  }
+
+  todoList = signal<Todo[]>([
+    { id: 1, value: 'Vue', isComplete: false },
+    { id: 2, value: 'Angular', isComplete: false },
+    { id: 3, value: 'React', isComplete: false },
+    { id: 4, value: 'Nuxt', isComplete: false },
+    { id: 5, value: 'NextJS', isComplete: false },
+    { id: 6, value: 'Node', isComplete: false },
+    { id: 7, value: 'NestJS', isComplete: false },
+    { id: 8, value: 'React Native', isComplete: false },
+    { id: 9, value: 'Electron', isComplete: false },
+    { id: 10, value: 'Rust', isComplete: false },
   ]);
 }

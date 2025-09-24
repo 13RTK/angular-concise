@@ -16,6 +16,14 @@
     3. Hide the Complete button after the todo is completed(@if)
    -->
   @for (todo of todoList(); track todo.id) {
-  <li>{{ todo.value }}<button (click)="handleClickDelete(todo.id)">&times;</button></li>
+  <li [class]="todo.isComplete ? 'delete' : ''">
+    {{ todo.value }}
+    @if (!todo.isComplete) {
+    <button (click)="handleClickComplete(todo.id)">Complete</button>
+    }
+    <button (click)="handleClickDelete(todo.id)">&times;</button>
+  </li>
+  } @empty {
+  <h1>Todo List Is Empty</h1>
   }
 </ul>
