@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <!-- TODO:
+        Task 1: Bind input/select with signals
+        Task 2: Get computed style based on size and rotate and apply on the circle
+       -->
+
+      <!-- Hint: .purple selector -->
+      <label> <input type="checkbox" /> Purple </label>
+
+      <!-- Hint: .text-black .text-orange selector -->
+      <select>
+        <option value="">White</option>
+        <option value="text-black">Black</option>
+        <option value="text-orange">Orange</option>
+      </select>
+
+      <label>
+        Circle Size
+        <input type="number" />
+      </label>
+
+      <label>
+        Circle Rotate
+        <input type="number" />
+      </label>
+      <!-- 
+        Hint: 
+        {
+          height: `${this.circleSize}px`,
+          width: `${this.circleSize}px`,
+          lineHeight: `${this.circleSize}px`,
+          transform: `rotate(${this.circleAngle}deg)`,
+        }
+       -->
+      <div class="circle">Hi!</div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
