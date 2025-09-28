@@ -1,2 +1,3 @@
-<!-- <label> <input type="checkbox" [(ngModel)]="isPurple" /> Purple </label> -->
-<label> <input type="checkbox" /> Purple </label>
+<label>
+  <input type="checkbox" [value]="isPurple()" (change)="handleIsPurpleChange()" /> Purple
+</label>

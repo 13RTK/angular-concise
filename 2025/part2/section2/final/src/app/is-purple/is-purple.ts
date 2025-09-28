@@ -1,7 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, input, output } from '@angular/core';
 
 @Component({
   selector: 'is-purple',
   templateUrl: './is-purple.html',
 })
-export class IsPurple {}
+export class IsPurple {
+  isPurple = input<boolean>();
+  onPurpleToggle = output();
+
+  handleIsPurpleChange() {
+    this.onPurpleToggle.emit();
+  }
+}

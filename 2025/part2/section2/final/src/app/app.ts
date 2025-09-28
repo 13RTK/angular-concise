@@ -9,6 +9,11 @@ import { IsPurple } from './is-purple/is-purple';
 })
 export class App {
   isPurple = signal(false);
+
+  handleIsPurpleChange() {
+    this.isPurple.update((isPurple) => !isPurple);
+  }
+
   textColor = signal('');
 
   circleClasses = computed(() => {
