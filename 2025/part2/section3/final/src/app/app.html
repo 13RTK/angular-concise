@@ -1,5 +1,4 @@
-<!-- <label> <input type="checkbox" [(ngModel)]="isPurple" /> Purple </label> -->
-<is-purple [isPurple]="isPurple()" (onPurpleToggle)="handleIsPurpleChange()" />
+<is-purple [(purpleStatus)]="isPurple" />
 
 <select [(ngModel)]="textColor">
   <option value="">White</option>
