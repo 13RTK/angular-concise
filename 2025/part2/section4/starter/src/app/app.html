@@ -1,0 +1,19 @@
+<is-purple [(purpleStatus)]="isPurple" />
+
+<select [(ngModel)]="textColor">
+  <option value="">White</option>
+  <option value="text-black">Black</option>
+  <option value="text-orange">Orange</option>
+</select>
+
+<label>
+  Circle Size
+  <input type="number" [(ngModel)]="circleSize" />
+</label>
+
+<label>
+  Circle Rotate
+  <input type="number" [(ngModel)]="circleRotate" />
+</label>
+
+<div class="circle" [style]="circleStyles()" [class]="circleClasses()">Hi!</div>
