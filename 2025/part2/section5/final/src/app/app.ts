@@ -1,5 +1,4 @@
 import { Component, computed, signal } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { IsPurple } from './is-purple/is-purple';
 import { TextColor } from './text-color/text-color';
 import { CircleSize } from './circle-size/circle-size';
@@ -8,7 +7,7 @@ import { CircleRotate } from './circle-rotate/circle-rotate';
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
-  imports: [FormsModule, IsPurple, TextColor, CircleSize, CircleRotate],
+  imports: [IsPurple, TextColor, CircleSize, CircleRotate],
 })
 export class App {
   isPurple = signal(false);
