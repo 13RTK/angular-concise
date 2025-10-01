@@ -1,13 +1,12 @@
 import { Component, computed, signal } from '@angular/core';
 import { IsPurple } from './is-purple/is-purple';
 import { TextColor } from './text-color/text-color';
-import { CircleSize } from './circle-size/circle-size';
-import { CircleRotate } from './circle-rotate/circle-rotate';
+import { CircleProperty } from './circle-property/circle-property';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
-  imports: [IsPurple, TextColor, CircleSize, CircleRotate],
+  imports: [IsPurple, TextColor, CircleProperty],
 })
 export class App {
   isPurple = signal(false);
