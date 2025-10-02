@@ -1,0 +1,8 @@
+<is-purple [(purpleStatus)]="isPurple" />
+
+<text-color [(textColor)]="textColor" />
+
+<circle-property [(circleProperty)]="circleSize">Circle Size</circle-property>
+<circle-property [(circleProperty)]="circleRotate">Circle Rotate</circle-property>
+
+<div class="circle" [style]="circleStyles()" [class]="circleClasses()">Hi!</div>
