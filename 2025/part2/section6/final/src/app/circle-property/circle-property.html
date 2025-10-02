@@ -1,4 +1,4 @@
 <label>
   <ng-content />
-  <input type="number" [value]="circleProperty()" (change)="handleCirclePropertyChange($event)" />
+  <input type="number" [(ngModel)]="circleProperty" />
 </label>
