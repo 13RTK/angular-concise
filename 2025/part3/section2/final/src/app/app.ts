@@ -1,10 +1,10 @@
-import { Component, signal } from '@angular/core';
+import { Component, OnInit, signal } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
 })
-export class App {
+export class App implements OnInit {
   currentAdvice = signal('');
   isLoading = signal(false);
 
@@ -17,5 +17,9 @@ export class App {
     this.currentAdvice.set(data.slip.advice);
 
     this.isLoading.set(false);
+  }
+
+  ngOnInit() {
+    this.handleGetAdvice();
   }
 }
