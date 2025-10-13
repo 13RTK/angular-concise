@@ -5,4 +5,4 @@
 } @else {
   <p>{{ currentAdvice().length ? currentAdvice() : 'There is not any advice' }}</p>
 }
-<button [disabled]="isLoading()" (click)="handleGetAdvice()">Click To Get Advice</button>
+<button [disabled]="isLoading()" (click)="fetchAdvice()">Click To Get Advice</button>

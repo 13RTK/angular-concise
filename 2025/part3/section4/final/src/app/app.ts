@@ -1,43 +1,21 @@
-import { HttpClient } from '@angular/common/http';
-import { Component, inject, OnInit, signal } from '@angular/core';
-
-type AdviceResponse = {
-  slip: {
-    id: number;
-    advice: string;
-  };
-};
+import { Component, inject, OnInit } from '@angular/core';
+import { AdviceService } from './advice.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
 })
 export class App implements OnInit {
-  currentAdvice = signal('');
-  isLoading = signal(false);
+  adviceService = inject(AdviceService);
 
-  http = inject(HttpClient);
+  currentAdvice = this.adviceService.currentAdvice;
+  isLoading = this.adviceService.isLoading;
 
-  handleGetAdvice() {
-    this.isLoading.set(true);
-
-    this.http
-      .get<AdviceResponse>('https://api.adviceslip.com/advice', {
-        timeout: 3000,
-      })
-      .subscribe({
-        next: (advice) => {
-          this.currentAdvice.set(advice.slip.advice);
-          this.isLoading.set(false);
-        },
-        error: (err) => {
-          alert(err.message);
-          this.isLoading.set(false);
-        },
-      });
+  fetchAdvice() {
+    this.adviceService.fetchAdvice();
   }
 
   ngOnInit() {
-    this.handleGetAdvice();
+    this.fetchAdvice();
   }
 }
