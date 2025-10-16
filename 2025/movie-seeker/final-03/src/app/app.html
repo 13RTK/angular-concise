@@ -1,0 +1,10 @@
+<toolbar (onChangePage)="handleChangePage($event)" />
+<mat-divider></mat-divider>
+
+@if (currentPage() === 'interests') {
+  <movie-list />
+}
+
+@if (currentPage() === 'search') {
+  <app-search />
+}

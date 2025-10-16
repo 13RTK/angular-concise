@@ -1,0 +1,7 @@
+<mat-grid-list cols="1" rowHeight="2:1">
+  @for (movie of movieList(); track movie.id) {
+    <movie-card [movie]="movie" />
+  } @empty {
+    <spinner />
+  }
+</mat-grid-list>
