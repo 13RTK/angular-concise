@@ -1,0 +1,2721 @@
+{
+  "categories": [
+    {
+      "interests": [
+        {
+          "id": "in0000242",
+          "name": "Danish",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYjZhOWQ3ZjYtMmNiOC00MWRmLTk2OWYtZWRkZTY3ZGUxNzFiXkEyXkFqcGc@._V1_.jpg",
+            "width": 3840,
+            "height": 2160
+          }
+        }
+      ]
+    },
+    {
+      "category": "Action",
+      "interests": [
+        {
+          "id": "in0000001",
+          "name": "Action",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMDU4ZmM1NjYtNGY2MS00NmE1LThiMzAtNzU3NWZhYmM0ZjgxXkEyXkFqcGc@._V1_.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "description": "The action genre features fast-paced, thrilling, and intense sequences of physical feats, combat, and excitement. The characters of these stories are involved in daring and often dangerous situations, requiring them to rely on their physical prowess, skills, and quick thinking to overcome challenges and adversaries."
+        },
+        {
+          "id": "in0000002",
+          "name": "Action Epic",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BM2RkNmFkZTItODFkMS00Yjk5LTg2YTQtMGQ0Zjc0Mzk3ZGQ5XkEyXkFqcGc@._V1_.jpg",
+            "width": 1366,
+            "height": 768
+          },
+          "description": "The action epic subgenre features fast-paced action with a grand and sweeping narrative scope, often spanning across vast landscapes, historical eras, and larger-than-life characters and conflicts. Classically, an epic tells the heroic journey and deeds of a single person, or group of persons, upon which the fate of many people depends.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000003",
+          "name": "B-Action",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNmQ5YzZiMGQtNzUyYS00OTNkLWExZjgtOTQxOWZiMTY1ZmUxXkEyXkFqcGc@._V1_.jpg",
+            "width": 1914,
+            "height": 1073
+          },
+          "description": "The B-action subgenre features lower budgets, simpler plots, and lower production values compared to bigger budget mainstream action titles. Originally used in a derogatory manner, the subgenre has evolved to describe a specific type of filmmaking with its own unique charm and appeal. The \"B\" designation originally referred to the second feature in a double feature presentation, with the \"A\" film being the main attraction. Over time, \"B-movies\" became associated with low-budget and less prestigious productions.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000004",
+          "name": "Car Action",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTQ2Nzg5ODU5NV5BMl5BanBnXkFtZTcwMDk2NTkxNA@@._V1_.jpg",
+            "width": 2048,
+            "height": 1131
+          },
+          "description": "The car action subgenre features high-speed car chases, daring stunts, and intense vehicular action sequences. Automobiles take on a central role as characters engage in thrilling pursuits, races, and confrontations involving cars, motorcycles, trucks, and other vehicles.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000005",
+          "name": "Disaster",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BODAzMDA4ZDYtNjJlNi00ZjlmLTk2ZTQtZTQ2NzI1ODg2M2ZjXkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          "description": "The disaster subgenre features narratives where characters must confront and survive catastrophic and often life-threatening events. These events can range from natural disasters like earthquakes, tsunamis, and hurricanes to man-made disasters like terrorist attacks, nuclear accidents, and plane crashes.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000006",
+          "name": "Martial Arts",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BOGFmODI5ZWItZmIwZS00ZmQ5LThkOWUtZTY0OTU1ZmIwMmJlXkEyXkFqcGc@._V1_.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "description": "The martial arts subgenre features martial arts techniques, choreography, and combat as central elements of the story. These stories often revolve around skilled martial artists who use their expertise to navigate challenges, seek revenge, protect others, or engage in epic battles.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000007",
+          "name": "One-Person Army Action",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTUzNjg4NjA1M15BMl5BanBnXkFtZTgwMjI0OTcyMDI@._V1_.jpg",
+            "width": 5472,
+            "height": 3648
+          },
+          "description": "The one-person army subgenre features a single protagonist who takes on hordes of enemies all by themselves. These stories are characterized by adrenaline-pumping action, highly choreographed action sequences, memorable characters, and the sheer spectacle of watching a lone hero take on insurmountable odds.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000008",
+          "name": "Superhero",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTM2MzY1ODc1Nl5BMl5BanBnXkFtZTcwNTg4OTY3Nw@@._V1_.jpg",
+            "width": 2048,
+            "height": 1152
+          },
+          "description": "The superhero subgenre features costumed crime fighters with extraordinary abilities or powers who use them to fight against villains and protect the innocent. They often combine high-energy action sequences with themes of heroism, morality, and the struggle between good and evil.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000009",
+          "name": "Sword & Sandal",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNDMzNzkwNDgxMF5BMl5BanBnXkFtZTcwNzg0NjcxNA@@._V1_.jpg",
+            "width": 2048,
+            "height": 1351
+          },
+          "description": "The sword and sandal subgenre, also known as \"peplum,\" features narratives set in ancient times, particularly during the eras of ancient Greece and Rome. These stories often revolve around epic battles, heroic figures, and historical or mythological events. The term \"sword and sandal\" refers to the prominent use of ancient weaponry and the characteristic attire of the time, including sandals worn by the characters.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000010",
+          "name": "War",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYTczMGFjOGUtZDJlMy00NWE2LWI5MGYtZWRkOThlZDllNjEwXkEyXkFqcGc@._V1_.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "description": "The war genre features armed conflicts, both historical and fictional, and the experiences of individuals and groups involved in warfare. This genre explores the physical, emotional, and moral challenges faced by soldiers, civilians, and others affected by war."
+        },
+        {
+          "id": "in0000011",
+          "name": "War Epic",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNjA4MzEzOTc0N15BMl5BanBnXkFtZTgwOTcyNDY4MjI@._V1_.jpg",
+            "width": 2048,
+            "height": 858
+          },
+          "description": "The war epic subgenre features large-scale, sweeping narratives set against the backdrop of significant historical conflicts with a sense of historical or cultural importance. They often emphasize grandeur, scope, and the monumental impact of war on both individuals and societies.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000197",
+          "name": "Gun Fu",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYmNhYjJiYTUtNWMyNy00NTUyLTlkZDktMDk2YTZiMTJhN2MxXkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 800
+          },
+          "description": "The gun fu subgenre features highly choreographed gun battles that incorporate stylized martial arts, acrobatics, and fluid gun handling. These battles often involve close-quarters combat, dynamic camera work, and rapid editing to create a sense of frenetic energy and excitement.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000198",
+          "name": "Kung Fu",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNDkzNTkyODE1NF5BMl5BanBnXkFtZTgwNTE3MzYyNzE@._V1_.jpg",
+            "width": 2048,
+            "height": 1365
+          },
+          "description": "The kung fu subgenre features the practice and mastery of Chinese martial arts. In Chinese, \"kung fu\" refers to any skill acquired through practice. Born as a backlash against the supernatural tropes of wuxia, the kung fu subgenre depicts realistic, unarmed fight choreography, highlighting the skill, speed, and agility of the martial artists involved, as well as the discipline, patience and strength required to become a master.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000199",
+          "name": "Samurai",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTg5MTc4MTc4M15BMl5BanBnXkFtZTcwNjA5MTU4Mw@@._V1_.jpg",
+            "width": 2048,
+            "height": 1547
+          },
+          "description": "The samurai subgenre, also known as chanbara, features the samurai warrior class and their way of life. These stories explore themes found within bushido, or \"the way of the warrior,\" a moral code that guides samurai attitudes, behavior and lifestyle. Often set in feudal Japan during the Edo period (1603-1868), samurai stories depict the tension between tradition and modernization, the struggle for power and justice, and the decline of a traditional way of life.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000200",
+          "name": "Wuxia",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMWJjMjgzYTctMTY5OC00YzQzLTk3MDMtMmY5YWNkYzFlMGU2XkEyXkFqcGc@._V1_.jpg",
+            "width": 1080,
+            "height": 749
+          },
+          "description": "The wuxia subgenre features the adventures of chivalrous heroes in ancient China who possess extraordinary martial arts skills, sometimes bordering on the supernatural. Wuxia heroes strive to redress wrongs, fight for righteousness, remove oppressors, and bring retribution for past misdeeds. These stories depict highly stylized action sequences, characterized by gravity-defying stunts, intricate choreography, and the use of various weapons.",
+          "isSubgenre": true
+        }
+      ]
+    },
+    {
+      "category": "Adventure",
+      "interests": [
+        {
+          "id": "in0000012",
+          "name": "Adventure",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTlmNjQxNGItMmM1My00YTk2LTk2NjYtNTc4YWFjYTgxNTRiXkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 816
+          },
+          "description": "The adventure genre features exciting journeys, quests, or expeditions undertaken by characters who often face challenges, obstacles, and risks in pursuit of a goal. Adventures can take place in a wide range of settings, from exotic and fantastical locations to historical or even everyday environments."
+        },
+        {
+          "id": "in0000013",
+          "name": "Desert Adventure",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTM3MjcyNDMxMV5BMl5BanBnXkFtZTcwOTc0NTY0NQ@@._V1_.jpg",
+            "width": 2048,
+            "height": 1378
+          },
+          "description": "The desert adventure subgenre features stories set in arid and often unforgiving desert landscapes. In these stories, characters embark on journeys through sandy dunes, harsh environments, and arid wastelands, facing challenges unique to desert conditions.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000014",
+          "name": "Dinosaur Adventure",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTQ1NzI2MzkyNl5BMl5BanBnXkFtZTgwMzcyOTIwMjE@._V1_.jpg",
+            "width": 2901,
+            "height": 1960
+          },
+          "description": "The dinosaur adventure subgenre features dinosaurs as central elements of the story. These stories typically transport viewers to prehistoric times or depict scenarios where dinosaurs coexist with humans or are rediscovered in the modern world.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000015",
+          "name": "Adventure Epic",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNGE4NjIwMGYtYWQ4MC00NGIyLWI1YjQtNjJmZjllYjFjMDgzXkEyXkFqcGc@._V1_.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "description": "The adventure epic subgenre features grand scope, sweeping landscapes, heroic journeys, and often historical or mythological elements. Epic adventure stories transport audiences to different worlds, eras, or fantastical realms, immersing them in narratives that encompass vast territories and significant challenges.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000016",
+          "name": "Globetrotting Adventure",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BN2U3NGYxYjktMTliNC00MjE1LTlkMzgtOWQ1OWUxN2MzMDc0XkEyXkFqcGc@._V1_.jpg",
+            "width": 5742,
+            "height": 4001
+          },
+          "description": "The globetrotting adventure subgenre features characters that travel to multiple locations around the world on exciting and often high-stakes journeys or quests. In globetrotting adventures, characters traverse diverse cultures, landscapes, and settings, encountering challenges and uncovering mysteries in each new location they visit.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000017",
+          "name": "Jungle Adventure",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMzQ5OTUwOTQ4M15BMl5BanBnXkFtZTgwNzEyODQ0MzI@._V1_.jpg",
+            "width": 2048,
+            "height": 1365
+          },
+          "description": "The jungle adventure subgenre features narratives set in dense and often treacherous jungle environments and follow characters as they navigate through lush vegetation, encounter wildlife, and confront the challenges presented by the jungle's natural hazards. This subgenre often emphasizes survival skills, exploration, and the characters' resilience in the face of the jungle's dangers.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000018",
+          "name": "Mountain Adventure",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjEwMTIwOTQ0NV5BMl5BanBnXkFtZTgwNzkxODk4NTE@._V1_.jpg",
+            "width": 2048,
+            "height": 1363
+          },
+          "description": "The mountain adventure subgenre features narratives set in rugged, mountainous landscapes. In mountain adventures, characters navigate the challenges and perils of mountain environments, including treacherous terrain, extreme weather conditions, and high altitudes. This subgenre highlights the physical and psychological struggles of characters as they attempt to conquer these formidable natural landscapes.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000019",
+          "name": "Quest",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTg2MTIzMTIwNV5BMl5BanBnXkFtZTcwNDM5NTkxNA@@._V1_.jpg",
+            "width": 2048,
+            "height": 1494
+          },
+          "description": "The quest subgenre features characters who embark on journeys with a clear and often epic objective or goal. These quests drive the narrative forward and provide a structured framework for the characters to encounter challenges, obstacles, and personal growth as they strive to achieve their mission.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000020",
+          "name": "Road Trip",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjMzOTI0MTA1OF5BMl5BanBnXkFtZTgwNjM4Nzk5OTE@._V1_.jpg",
+            "width": 2048,
+            "height": 1536
+          },
+          "description": "The road trip subgenre features narratives in which characters embark on a journey by road, often involving a series of destinations, experiences, and encounters along the way. Road trip stories emphasize the characters' personal growth, relationships, and discoveries as they travel together, providing opportunities for exploration and self-discovery.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000021",
+          "name": "Sea Adventure",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTM0NDI4MDEyN15BMl5BanBnXkFtZTcwNTYyMTI3Nw@@._V1_.jpg",
+            "width": 2048,
+            "height": 1142
+          },
+          "description": "The sea adventure subgenre features narratives set primarily on the sea or other bodies of water. Sea adventures often revolve around characters who embark on journeys, explorations, or quests involving ships, boats and capture the challenges, dangers, and discoveries that come with life at sea.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000022",
+          "name": "Swashbuckler",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BOTAzNTY1NjYwMl5BMl5BanBnXkFtZTgwNTIwNjMzMjI@._V1_.jpg",
+            "width": 2048,
+            "height": 858
+          },
+          "description": "The swashbuckler subgenre, the term referring to a flamboyant and daring swordsman, features narratives centered around heroic and dashing characters known for their skill in swordplay and their chivalrous actions. Swashbucklers are typically set in historical or fantasy settings and often feature extravagant action sequences, daring escapades, and a sense of romance and adventure.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000023",
+          "name": "Teen Adventure",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTU3MjQwNzQ3NF5BMl5BanBnXkFtZTcwMzUyNTQyMw@@._V1_.jpg",
+            "width": 2048,
+            "height": 1359
+          },
+          "description": "The teen adventure subgenre features narratives centered around teenage protagonists who embark on journeys, quests, or adventures that lead them to self-discovery, personal growth, and often unexpected challenges. These stories are targeted toward a teenage audience and often explore themes relevant to adolescence, such as friendship, identity, and empowerment.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000024",
+          "name": "Urban Adventure",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTU4NjYwNzAxN15BMl5BanBnXkFtZTgwMDkyODI4NjM@._V1_.jpg",
+            "width": 2048,
+            "height": 858
+          },
+          "description": "The urban adventure subgenre features narratives set in urban environments, typically cities and metropolitan areas. In these stories, characters navigate the challenges and dynamics of city life while engaging in adventures, often involving danger, mystery, and action. They combine elements of thrill, suspense, and exploration within the context of urban settings.",
+          "isSubgenre": true
+        }
+      ]
+    },
+    {
+      "category": "Animation",
+      "interests": [
+        {
+          "id": "in0000025",
+          "name": "Adult Animation",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjQwMzc3ODM4OV5BMl5BanBnXkFtZTgwMTE0MTUxMDI@._V1_.jpg",
+            "width": 3000,
+            "height": 2100
+          },
+          "description": "The adult animation subgenre is aimed at mature audiences, typically consisting of content that explores complex themes, mature storytelling, and may include explicit language, violence, sexual content, or other adult-oriented elements. Unlike traditional animation that is often associated with family-friendly or children's content, adult animation caters to grown-up viewers who appreciate more sophisticated and often darker narratives.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000026",
+          "name": "Animation",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMzI1NDk0MzEzN15BMl5BanBnXkFtZTcwOTE0MjIyNw@@._V1_.jpg",
+            "width": 2048,
+            "height": 1106
+          },
+          "description": "Animation is a form of visual storytelling that involves creating visual art and motion through the use of various techniques and technologies. In animation, images are manipulated to create the illusion of movement, bringing characters, objects, and environments to life. Animation can encompass a wide range of styles, themes, and intended audiences, making it a diverse and versatile form of storytelling."
+        },
+        {
+          "id": "in0000028",
+          "name": "Computer Animation",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYTBhNGUyNTktYTlhYy00MzNkLThkMmQtYTZiNTNhZTMzYjcyXkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          "description": "Computer animation is a technique in which computers are used to generate animated sequences digitally. Unlike traditional hand-drawn animation, which involves creating individual frames by hand, computer animation relies on digital processes to generate scenery, character models, lighting, and movement."
+        },
+        {
+          "id": "in0000029",
+          "name": "Hand-Drawn Animation",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTcxNDM3OTMzOV5BMl5BanBnXkFtZTcwODYxMDIyNw@@._V1_.jpg",
+            "width": 2048,
+            "height": 1387
+          },
+          "description": "Hand-drawn animation, also known as traditional animation, is a technique in which each frame is created by hand. It involves the process of drawing individual images, known as frames or cels, by skilled animators and then photographing or filming them in sequence to create the illusion of motion."
+        },
+        {
+          "id": "in0000030",
+          "name": "Stop Motion Animation",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNTUxODgzMjM0N15BMl5BanBnXkFtZTcwMjY3NDgxNw@@._V1_.jpg",
+            "width": 2048,
+            "height": 1234
+          },
+          "description": "Stop motion animation is a technique in which physical objects or puppets are manipulated and photographed one frame at a time to create the illusion of movement when played back at a regular speed. This process involves posing and photographing the objects, then moving them slightly and capturing another frame, and so on. When these frames are played in sequence, they create the illusion of fluid motion."
+        }
+      ]
+    },
+    {
+      "category": "Anime",
+      "interests": [
+        {
+          "id": "in0000027",
+          "name": "Anime",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMGYzOTdhY2EtZjYwYi00ZjhmLWIwNjQtZjc1OWNmODcyOWMzXkEyXkFqcGc@._V1_.jpg",
+            "width": 2877,
+            "height": 1543
+          },
+          "description": "Anime is a style of Japanese animation that has gained significant popularity outside of Japan. It is often characterized by its use of flat design and limited animation, with characters characterized by large expressive eyes, exaggerated facial expressions, and defined lines. These stories are produced for audiences of all ages, with specific subgenres catering to different age groups."
+        },
+        {
+          "id": "in0000201",
+          "name": "Isekai",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNTkzOTMzOTktMWFlYS00Nzk3LTk2MDktNjZjNThiY2IzNWNlXkEyXkFqcGc@._V1_.jpg",
+            "width": 1552,
+            "height": 873
+          },
+          "description": "Isekai is a subgenre of Japanese animation that features characters who are transported from their ordinary lives into parallel worlds or alternate dimensions. These anime follow the characters' adventures as they navigate their new surroundings, encounter fantastical creatures, and embark on missions or quests.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000202",
+          "name": "Iyashikei",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNTY3YTA1OWItMTUzMy00NGI4LWE4YTMtODliM2I4MGVjOGU2XkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 963
+          },
+          "description": "Iyashikei is a subgenre of Japanese animation that aims to provide a sense of healing, relaxation, and comfort. These anime are characterized by their gentle pacing, serene atmospheres, and focus on everyday life and nature.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000203",
+          "name": "Josei",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjg2NDEyM2YtMmUwMy00ODQzLWExMGYtYjZjZTMzMjM4NzY5XkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          "description": "Josei is a subgenre of Japanese animation that is intended for adult women. These anime typically focus on realistic portrayals of relationships, emotions, and everyday life.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000204",
+          "name": "Mecha",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZWNkMTc2YzQtMWE1My00NGRiLTgzYzItOTQyYzc3NTE0YjViXkEyXkFqcGc@._V1_.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "description": "Mecha is a subgenre of Japanese animation that features giant robots or mechs that are controlled by pilots or artificial intelligence.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000205",
+          "name": "Seinen",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZmY5MmJmZWQtODIzYy00NTgyLTlmMTAtNzU0MDcyYjA4YzA0XkEyXkFqcGc@._V1_.jpg",
+            "width": 1281,
+            "height": 694
+          },
+          "description": "Seinen is a subgenre of Japanese animation that is intended for adult men. These anime often explore mature themes and complex narratives, such as psychological drama, crime, and existentialism.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000206",
+          "name": "Shōnen",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNmUyZWEzMzgtNDJhOS00NGZmLWFhYmQtN2I4YzQ0MTU3YmE4XkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          "description": "Shōnen is a subgenre of Japanese animation that is intended for young male audiences. These anime typically feature heroic, action-packed stories with themes of friendship, perseverance, and self-improvement.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000207",
+          "name": "Shōjo",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZmM5OTc3OGMtNzFmZi00YzI2LTkzNWEtMTc4NWY5Y2YxYzY5XkEyXkFqcGc@._V1_.jpg",
+            "width": 1279,
+            "height": 718
+          },
+          "description": "Shōjo is a subgenre of Japanese animation that is intended for young female audiences. These anime typically focus on themes of romance, relationships, and personal growth, often featuring female characters navigating the complexities of love, friendship, and self-discovery.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000208",
+          "name": "Slice of Life",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNmE4MWEyYjctNDczMC00NmE2LTlmMTAtNGNmOGU0Yzg3ODQ3XkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          "description": "Slice of life is a subgenre of Japanese animation that portrays everyday life, often without a central plot or overarching narrative. Instead, slice of life anime captures the ordinary experiences, interactions, and emotions of its characters, offering a glimpse into their daily routines and struggles.",
+          "isSubgenre": true
+        }
+      ]
+    },
+    {
+      "category": "Comedy",
+      "interests": [
+        {
+          "id": "in0000031",
+          "name": "Body Swap Comedy",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BOGFjMzk3MDAtM2YyNS00NGE2LTk0Y2EtZjZmNjE4NmI3Mzk3XkEyXkFqcGc@._V1_.jpg",
+            "width": 1400,
+            "height": 933
+          },
+          "description": "The body swap comedy features characters' minds or consciousnesses being switched between different bodies, often leading to humorous and sometimes insightful situations. In these stories, characters find themselves in unfamiliar physical forms, which can result in comedic misunderstandings, identity crises, and role reversals. Body swap comedies explore themes of empathy, personal growth, and the comedic potential of being in someone else's shoes, quite literally.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000032",
+          "name": "Buddy Comedy",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BOWY4MTM1M2QtZWIwMi00MWRkLWFhNDItOWI5MjA3ZWQyNTgwXkEyXkFqcGc@._V1_.jpg",
+            "width": 1023,
+            "height": 578
+          },
+          "description": "The buddy comedy features interactions, misadventures, and camaraderie between two main characters who are often opposites in personality, background, or circumstances. The comedic dynamic arises from their contrasting traits, resulting in humorous situations and often leading to personal growth and deepened friendship. Buddy comedies are known for their witty banter, odd-couple dynamics, and the chemistry between the central characters. These stories are similar to, but distinct from, romantic comedies and buddy cop comedies.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000033",
+          "name": "Buddy Cop",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjE0MTE1MTk5MV5BMl5BanBnXkFtZTcwMjY1MTkxNA@@._V1_.jpg",
+            "width": 2048,
+            "height": 1392
+          },
+          "description": "The buddy cop subgenre features two main characters, typically police officers, detectives, or agents with contrasting personalities, who are forced to work together to solve a crime or achieve a common goal. The interactions and dynamics between the two characters, often from different backgrounds or with conflicting approaches to police work, create both humor and tension, resulting in entertaining and action-packed narratives.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000034",
+          "name": "Comedy",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjU5NjQyNTcwOV5BMl5BanBnXkFtZTcwMzc3NzUyMw@@._V1_.jpg",
+            "width": 2048,
+            "height": 1365
+          },
+          "description": "The comedy genre refers to a category of entertainment that aims to amuse and entertain audiences by using humor, wit, and comedic situations. Comedies are created with the primary intention of eliciting laughter and providing lighthearted enjoyment. They encompass a wide range of styles, tones, and themes, appealing to various tastes and audiences."
+        },
+        {
+          "id": "in0000035",
+          "name": "Dark Comedy",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTkxOTA2OTgzM15BMl5BanBnXkFtZTgwOTgzMzI5NzM@._V1_.jpg",
+            "width": 2048,
+            "height": 1365
+          },
+          "description": "The dark comedy subgenre, also known as black comedy, combines humor with elements of tragedy, morbidity, or darker themes. Dark comedies often explore serious or taboo subjects, such as death, crime, dysfunction, and societal issues, while infusing these topics with humor to create an unusual and often thought-provoking contrast. The humor in dark comedies is typically edgy, satirical, and often unsettling, challenging traditional comedic norms.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000036",
+          "name": "Farce",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMWY2ZDk2NWQtOTQxNy00YWZmLTkzMmItNGI1M2U4NDhmMGM2XkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          "description": "The farce subgenre features exaggerated situations, slapstick humor, mistaken identities, and chaotic, rapid-fire events. Farces are known for their absurd and over-the-top comedic elements, often involving misunderstandings, physical comedy, and improbable scenarios.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000037",
+          "name": "High-Concept Comedy",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BODM4OTJmZjQtMzFmMC00NmM1LTk2OTgtZjM5ZmQ1ZmRjZWQ5XkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1040
+          },
+          "description": "The high-concept comedy subgenre features a distinctive and easily understandable premise that grabs the audience's attention. High-concept comedies typically focus on \"what if...\" scenarios (e.g., what if a lawyer couldn't lie) or \"fish out of water\" situations (e.g., a tough cop must pose undercover as a kindergarten teacher).",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000038",
+          "name": "Mockumentary",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjQxNDM4ODE0OV5BMl5BanBnXkFtZTgwNjk4Mjk4MzI@._V1_.jpg",
+            "width": 2048,
+            "height": 1365
+          },
+          "description": "The mockumentary subgenre presents itself as a documentary but is entirely fictional or satirical in nature. Mockumentaries mimic the style, format, and conventions of traditional documentaries, using techniques such as interviews, voiceovers, handheld camera work, and archival footage to create a realistic appearance. However, the content and events depicted in mockumentaries are intentionally fabricated for comedic or satirical purposes.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000039",
+          "name": "Parody",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTY4NDI0NzcwOF5BMl5BanBnXkFtZTcwOTY0MjI3NA@@._V1_.jpg",
+            "width": 1023,
+            "height": 685
+          },
+          "description": "The parody subgenre imitates, exaggerates, and satirizes the style, themes, characters, or conventions of another work, genre, or cultural phenomenon. Parodies often involve taking well-known elements from the original source and presenting them in a humorous and exaggerated manner to create a comedic effect.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000040",
+          "name": "Quirky Comedy",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTA0Njk5NTMwMTReQTJeQWpwZ15BbWU3MDM3OTIyMjM@._V1_.jpg",
+            "width": 2048,
+            "height": 1371
+          },
+          "description": "The quirky comedy subgenre features unconventional characters, situations, and humor that deviate from the norms of traditional comedic storytelling. These comedies can be characterized by their offbeat charm, nonconformity, and the exploration of the peculiarities of human behavior and relationships.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000041",
+          "name": "Raunchy Comedy",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BOWNmOTliZjgtMmRkYy00Zjk5LThiMWQtNDYxZmUzN2QzNzdiXkEyXkFqcGc@._V1_.jpg",
+            "width": 2560,
+            "height": 1440
+          },
+          "description": "The raunchy comedy subgenre uses explicit, often crude and vulgar, humor to create laughter. Raunchy comedies push the boundaries of traditional comedic norms by incorporating explicit language, sexual content, and taboo subjects for comedic effect.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000042",
+          "name": "Satire",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjYwNDQ1YzgtY2ZjYS00YjNmLTk0MjktMGY0YzNjMjQ4NGQ2XkEyXkFqcGc@._V1_.jpg",
+            "width": 1600,
+            "height": 1102
+          },
+          "description": "The satire subgenre uses humor, irony, exaggeration, and parody to critique and comment on various aspects of society, culture, politics, institutions, and human behavior. Satires aim to provoke thought, highlight absurdities, and expose hypocrisy by presenting familiar situations in a distorted or exaggerated manner. They entertain while also providing social commentary and encouraging viewers to reflect on the subjects being criticized.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000043",
+          "name": "Screwball Comedy",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMmE1YjdiYTEtMzYzNi00NzAzLWI0ZDYtNDhkMDk4ZDNlYzkxXkEyXkFqcGc@._V1_.jpg",
+            "width": 964,
+            "height": 637
+          },
+          "description": "The screwball comedy subgenre, which emerged in the 1930s and 1940s, is known for its fast-paced, zany, and often absurd humor. They feature witty dialogue, comedic misunderstandings, and unconventional romantic pairings. These comedies often incorporate elements of farce, slapstick, and satire to create a unique and entertaining blend of humor.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000044",
+          "name": "Sitcom",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNTc3Yzg0ZGItMzdmMS00OTVkLWE0NTgtM2VlMjUzYWIwNmY3XkEyXkFqcGc@._V1_.jpg",
+            "width": 1080,
+            "height": 647
+          },
+          "description": "The sitcom, short for \"situational comedy,\" is a subgenre of TV series that features a set of recurring characters, often occupying a shared environment such as a home or workspace, placed in humorous situations. Sitcoms are designed to entertain and make audiences laugh through comedic dialogue, situational humor, and often exaggerated or absurd scenarios.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000045",
+          "name": "Sketch Comedy",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNzIyMzk5OTk2OV5BMl5BanBnXkFtZTgwMzg4MzkyMDE@._V1_.jpg",
+            "width": 2048,
+            "height": 1365
+          },
+          "description": "The sketch comedy subgenre consists of a series of short, self-contained scenes or sketches, often connected by a common theme, style, or recurring characters. Each sketch typically lasts a few minutes and presents a humorous situation, scenario, or interaction that delivers a punchline, comedic twist, or funny observation.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000046",
+          "name": "Slapstick",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZDNjOTcyY2EtMzIxNS00MzhhLTk0ZTAtMTNhMTg3ZDhjZGQwXkEyXkFqcGc@._V1_.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "description": "The slapstick comedy subgenre, a term that originates from a type of wooden paddle with a hinged flap that was used in early comedic performances to create slapping noises during comedic actions, is a form of physical comedy characterized by exaggerated, boisterous, and often absurd actions, situations, and physical interactions. Slapstick humor relies on visual gags, physical stunts, and exaggerated movements to create laughs.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000047",
+          "name": "Stand-Up",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjUyNDQ0NDMwMV5BMl5BanBnXkFtZTgwNzg3MjA0NTM@._V1_.jpg",
+            "width": 2048,
+            "height": 1078
+          },
+          "description": "Stand-up comedy is a form of comedic performance in which a comedian stands on stage and delivers a series of humorous monologues, anecdotes, jokes, and observational humor to entertain an audience. The comedian typically speaks directly to the audience, often addressing a wide range of topics including everyday life, personal experiences, social issues, and cultural observations.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000048",
+          "name": "Stoner Comedy",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTkzNzI4NzU2MV5BMl5BanBnXkFtZTgwMzQ4OTIwMjE@._V1_.jpg",
+            "width": 4643,
+            "height": 3162
+          },
+          "description": "The stoner comedy subgenre features the use of marijuana and cannabis-related humor. While centered around the theme of cannabis use, stoner comedies often use the substance and its effects as a backdrop for humor and situational comedy featuring characters who are laid-back and carefree.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000049",
+          "name": "Teen Comedy",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYWUwNTZhODQtZWMxNi00YTBjLWE4NTctZjNkMjc5NzA4ZDdlXkEyXkFqcGc@._V1_.jpg",
+            "width": 1600,
+            "height": 1039
+          },
+          "description": "The teen comedy subgenre features comedy that is specifically targeted toward a teenage audience. These comedies typically revolve around the lives, experiences, and challenges of teenagers, often exploring themes related to high school, friendship, romance, identity, and the ups and downs of adolescence.",
+          "isSubgenre": true
+        }
+      ]
+    },
+    {
+      "category": "Crime",
+      "interests": [
+        {
+          "id": "in0000050",
+          "name": "Caper",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjAwODUyNjc2MF5BMl5BanBnXkFtZTcwMDM5OTQyNw@@._V1_.jpg",
+            "width": 2000,
+            "height": 1313
+          },
+          "description": "The caper subgenre features the planning and execution of one or more crimes, such as thefts, cons, or kidnappings, by a team of characters, each with specific skills. Caper stories are distinguished by their emphasis of humor, adventure, and the unusual cleverness or audacity of the crime.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000051",
+          "name": "Cop Drama",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNDYxNDY5MTI4NV5BMl5BanBnXkFtZTgwMTQ0MzMzMTI@._V1_.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          "description": "The cop drama subgenre features law enforcement officers, their work, and the challenges they face while investigating crimes, maintaining order, and upholding the law. Cop dramas often provide a glimpse into the daily lives, moral dilemmas, and personal struggles of police officers as they navigate the complexities of their profession.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000052",
+          "name": "Crime",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BY2M4MTFlOWMtYzhiYS00OGI3LTg0ODItODk3ODVjMzIyMmMyXkEyXkFqcGc@._V1_.jpg",
+            "width": 1500,
+            "height": 999
+          },
+          "description": "The crime genre features criminal activities, investigations, law enforcement, crimes, and the pursuit of justice. Crime stories often revolve around the planning, execution, and consequences of criminal acts, as well as the efforts to solve and prevent such acts. They explore various aspects of criminal behavior, motives, and the moral dilemmas faced by both perpetrators and those seeking to uphold the law."
+        },
+        {
+          "id": "in0000053",
+          "name": "Drug Crime",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BOTgzOGM5YTUtZWE4MS00OTgwLTllZDctMTkwMTBmNzM1NzA3XkEyXkFqcGc@._V1_.jpg",
+            "width": 1998,
+            "height": 1332
+          },
+          "description": "The drug crime subgenre features criminal activities related to illegal drugs, drug trafficking, drug abuse, and the efforts of law enforcement to combat the drug trade. These narratives often explore the consequences of drug-related criminal behavior, the impact on individuals and communities, and the challenges faced by those seeking to bring criminals to justice.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000054",
+          "name": "Film Noir",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BODQ0Mjc4NTktMTUwZS00M2E5LWI3YjYtMzA3YzA4MjYxYTFjXkEyXkFqcGc@._V1_.jpg",
+            "width": 960,
+            "height": 601
+          },
+          "description": "The film noir subgenre emerged in the 1940s and 1950s and is characterized by its dark, moody atmosphere, intricate plots, morally ambiguous characters, and distinctive visual style. These stories often depict crime, mystery, and psychological drama with a strong emphasis on shadows, contrasts, and visual storytelling techniques. The term \"film noir\" is French for \"black film.\"",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000055",
+          "name": "Gangster",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BOTFhMzgwNzQtNTYzMS00NDdlLWJkMjYtMGY3ZGY5NjZjYjliXkEyXkFqcGc@._V1_.jpg",
+            "width": 4863,
+            "height": 3600
+          },
+          "description": "The gangster subgenre features the perspectives of characters involved in criminal organizations. These stories typically center on the tragic rise and fall of an antihero in their pursuit of wealth, power, and status.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000056",
+          "name": "Heist",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTc1NDg5MTMzOV5BMl5BanBnXkFtZTcwNjEzNzIwNA@@._V1_.jpg",
+            "width": 2048,
+            "height": 1377
+          },
+          "description": "The heist subgenre features meticulously planned and executed thefts, typically involving valuable objects, money, or high-stakes targets. Heist stories often center on a group of skilled individuals who collaborate to pull off a complex and often daring robbery, showcasing their expertise, strategy, and resourcefulness.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000057",
+          "name": "Police Procedural",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMDM0ZGQ0YjQtNDgxMS00ZWJjLTk5MTUtYzQyMTA4YTVmZWEzXkEyXkFqcGc@._V1_.jpg",
+            "width": 1080,
+            "height": 720
+          },
+          "description": "The police procedural subgenre features the detailed and realistic depiction of police work, investigative procedures, and the step-by-step process of solving crimes. Police procedural stories typically follow law enforcement officers or detectives as they methodically investigate crimes, gather evidence, interview witnesses and suspects, and work to solve cases.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000058",
+          "name": "True Crime",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTMxNjA5MzkzN15BMl5BanBnXkFtZTcwNjU5NDIyMw@@._V1_.jpg",
+            "width": 2048,
+            "height": 1361
+          },
+          "description": "The true crime subgenre features real-life criminal cases, investigations, trials, and events. The stories are based on actual events and real individuals, often focusing on notorious crimes, criminal figures, and the justice system.",
+          "isSubgenre": true
+        }
+      ]
+    },
+    {
+      "category": "Documentary",
+      "interests": [
+        {
+          "id": "in0000059",
+          "name": "Crime Documentary",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNzQ3MWE5Y2QtOTM5Ny00MjM0LWJmMGUtZTczZjY0M2VjMzZlXkEyXkFqcGc@._V1_.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "description": "The crime documentary features real-life criminal cases, investigations, trials, and related events. Crime documentaries present factual information and often incorporate interviews with law enforcement officials, legal experts, witnesses, victims, and sometimes even the individuals involved in the crimes.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000060",
+          "name": "Documentary",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMmJiY2IzZGItMzA4Ni00OWVkLWJjZGUtZDYzNDllNjY4OGEwXkEyXkFqcGc@._V1_.jpg",
+            "width": 1440,
+            "height": 1080
+          },
+          "description": "The documentary is a form of non-fiction storytelling that aims to present factual information, insights, and perspectives on real-world subjects, events, issues, or people. Documentaries can cover a wide range of topics, including history, science, culture, social issues, nature, biographies, and more."
+        },
+        {
+          "id": "in0000061",
+          "name": "Docuseries",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BODQyNjQwYjYtNmM1My00YjhjLWI3Y2EtMWJlMjUzOWM2OWJkXkEyXkFqcGc@._V1_.jpg",
+            "width": 1584,
+            "height": 1056
+          },
+          "description": "The docuseries, short for documentary series, is a TV series that consists of multiple episodes, each focusing on a specific aspect of a larger subject or theme. Docuseries present factual information, insights, and perspectives on real-world subjects, events, issues, or individuals, and offer an in-depth exploration by dedicating multiple episodes to various aspects of the subject.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000062",
+          "name": "Faith & Spirituality Documentary",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BOGM2NzljNmQtZWIxMy00YjhhLWJjNWYtOTNiMmY3OGQ5OTU5XkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          "description": "The faith and spirituality documentary features topics related to religious beliefs, spirituality, faith practices, and the exploration of deeper existential and metaphysical questions. They aim to provide insights into various faith traditions, spiritual practices, and personal journeys of individuals who seek meaning, connection, and understanding in the context of their beliefs.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000063",
+          "name": "Food Documentary",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNjIwODU5MDIzM15BMl5BanBnXkFtZTcwMTAxODkyNw@@._V1_.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          "description": "The food documentary features various aspects of food, culinary culture, food production, gastronomy, and the social, cultural, and environmental impact of what we eat. These documentaries explore topics ranging from food preparation and cooking techniques to the global food industry, sustainable farming practices, culinary traditions, and the relationships between food, health, and society.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000064",
+          "name": "History Documentary",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYmQ4OTAwNmQtNmI3MS00NDhkLTk0Y2QtZWViM2ZiMjUxYjA0XkEyXkFqcGc@._V1_.jpg",
+            "width": 1280,
+            "height": 682
+          },
+          "description": "The history documentary features historical events, figures, periods, and cultural developments using visual storytelling techniques. These documentaries provide insights into the past, offering a detailed and often educational exploration of historical topics and aim to inform, educate, and engage audiences.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000065",
+          "name": "Military Documentary",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BN2Q4OWZhMTQtMzZhZC00MWE0LWJlMjEtZmJmMTZmZWNhMTI4XkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1036
+          },
+          "description": "The military documentary features various aspects of military history, operations, strategy, technology, and the experiences of military personnel. These documentaries provide insights into armed forces, conflicts, and the broader impact of military actions on societies and nations.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000066",
+          "name": "Music Documentary",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYjczMzc0OGQtMzAyMC00OTJkLWFlNjgtMGZmZGZiN2JkYmNhXkEyXkFqcGc@._V1_.jpg",
+            "width": 1270,
+            "height": 690
+          },
+          "description": "The music documentary features various aspects of music, musicians, music genres, music history, and the cultural impact of music. These documentaries offer insights into the creative process, personal stories, and historical context of artists and musical movements.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000067",
+          "name": "Nature Documentary",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTcyZjVhY2QtOTUwOS00MGU0LWI0NzctMWFjYzU2MTUyYjQ1XkEyXkFqcGc@._V1_.jpg",
+            "width": 3840,
+            "height": 2160
+          },
+          "description": "The nature documentary features the natural world, wildlife, ecosystems, and environmental phenomena. These documentaries offer viewers a closer look at various aspects of the planet's biodiversity, landscapes, and the interactions between different species and their environments.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000068",
+          "name": "Political Documentary",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYTY5MjhkMWYtOTA3OS00Zjc5LThjYmItOTRhZDc3N2NhYTRmXkEyXkFqcGc@._V1_.jpg",
+            "width": 1100,
+            "height": 619
+          },
+          "description": "The political documentary features political topics, issues, events, and the people involved in shaping political landscapes. These documentaries aim to provide insights into government structures, policies, ideologies, historical events, and the impact of political decisions on societies and individuals.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000069",
+          "name": "Science & Technology Documentary",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNTNlNTU1ODAtYmNkOC00NjRkLWJjMjktYTFiNTJlZThjYTU0XkEyXkFqcGc@._V1_.jpg",
+            "width": 3900,
+            "height": 1951
+          },
+          "description": "The science and technology documentary features topics related to scientific discoveries, advancements, innovations, and technological developments. These documentaries aim to inform and educate viewers about various fields of science, technological breakthroughs, and the ways in which they impact our lives and the world around us.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000070",
+          "name": "Sports Documentary",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BOTc3ZTgzMWEtN2E4NS00MjQxLThjZTktYjY2Zjc5ZTgxZjc1XkEyXkFqcGc@._V1_.jpg",
+            "width": 1140,
+            "height": 800
+          },
+          "description": "The sports documentary features sports-related topics, athletes, teams, competitions, and the broader cultural significance of sports. These documentaries provide insights into the world of sports, showcasing athletes' journeys, triumphs, challenges, and the impact of sports on society.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000071",
+          "name": "Travel Documentary",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNmJjNTgzMjctODdlZC00NWI5LWEyNzctYTJjYTQzYWMzYjk0XkEyXkFqcGc@._V1_.jpg",
+            "width": 3000,
+            "height": 2000
+          },
+          "description": "The travel documentary features individuals or groups as they journey to different locations, regions, or countries. These documentaries provide viewers with a visual and narrative exploration of various destinations, cultures, landscapes, and experiences.",
+          "isSubgenre": true
+        }
+      ]
+    },
+    {
+      "category": "Drama",
+      "interests": [
+        {
+          "id": "in0000072",
+          "name": "Biography",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMzI3NTUyNTg0NF5BMl5BanBnXkFtZTcwNTk2NDcwNw@@._V1_.jpg",
+            "width": 2048,
+            "height": 1370
+          },
+          "description": "The biography, or \"biopic\", is a genre that portrays the life story of a real person, often a notable individual or historical figure. They aim to provide a depiction of the subject's personal history, achievements, challenges, and impact on society."
+        },
+        {
+          "id": "in0000073",
+          "name": "Coming-of-Age",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjIzMjE3MTI1NF5BMl5BanBnXkFtZTgwNzE3MTgyNDM@._V1_.jpg",
+            "width": 2048,
+            "height": 1536
+          },
+          "description": "The coming-of-age subgenre features personal growth, maturation, and self-discovery of a young protagonist as they navigate the challenges and transitions of adolescence into adulthood. These stories often revolve around characters experiencing pivotal moments, gaining new insights, and learning valuable life lessons as they transition from childhood to maturity.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000074",
+          "name": "Costume Drama",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTMyZjNkMDQtNjZjZC00NWEwLTg1YjQtMThiMDllNDVjMDJhXkEyXkFqcGc@._V1_.jpg",
+            "width": 4448,
+            "height": 3096
+          },
+          "description": "The costume drama subgenre is set in a particular historical period and emphasizes the accurate depiction of the era's clothing, customs, settings, and social norms. These productions transport audiences to the past through visual and cultural elements of a bygone time.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000075",
+          "name": "Docudrama",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTg0NDA2MjY1N15BMl5BanBnXkFtZTcwMDc0NTE5Mw@@._V1_.jpg",
+            "width": 2048,
+            "height": 1373
+          },
+          "description": "The docudrama subgenre features dramatized re-enactments of actual events, often from recent history. Docudramas aim to provide a compelling and engaging portrayal of real-life situations while maintaining some of the narrative and emotional elements found in fictional dramas.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000076",
+          "name": "Drama",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BN2MxZmYzMDItYzNkMS00YWY1LWIzNDktNTI3YTQxMGNjZjEzXkEyXkFqcGc@._V1_.jpg",
+            "width": 5760,
+            "height": 3840
+          },
+          "description": "The drama genre is a broad category that features stories portraying human experiences, emotions, conflicts, and relationships in a realistic and emotionally impactful way. Dramas delve into the complexities of human life, often exploring themes of love, loss, morality, societal issues, personal growth, with the aim to evoke an emotional response from the audience by presenting relatable and thought-provoking stories."
+        },
+        {
+          "id": "in0000077",
+          "name": "Epic",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZmZkMzI4YWEtMmIxMi00ZDA2LTk3MDMtNzVmOGQ1NzI5OTU2XkEyXkFqcGc@._V1_.jpg",
+            "width": 1200,
+            "height": 900
+          },
+          "description": "The epic subgenre features grand and sweeping stories often set against significant historical, cultural, or societal backdrops. Epic dramas are characterized by their scope, scale, and often lengthy runtime, as they aim to capture the grandeur of human experiences, events, and emotions.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000078",
+          "name": "Financial Drama",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNDQ2ODY3NzAwNF5BMl5BanBnXkFtZTcwOTQyMTQ4Mw@@._V1_.jpg",
+            "width": 2048,
+            "height": 1365
+          },
+          "description": "The financial drama subgenre features characters and situations in the financial industry, corporate boardrooms, or economic crises. Financial dramas explore the complexities of money, power, greed, and the impact of financial decisions on individuals and society as a whole."
+        },
+        {
+          "id": "in0000079",
+          "name": "Historical Epic",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYmY1YjcyZDgtMzk3MS00ZmI3LWJmZGMtYzkyZGU2MDI0Zjk0XkEyXkFqcGc@._V1_.jpg",
+            "width": 7956,
+            "height": 5564
+          },
+          "description": "The historical epic subgenre features grand and sweeping stories set around significant historical events, providing insight into how individuals were affected by or influenced those events. Historical epics aim to depict important events, eras, or figures from history in a larger-than-life manner.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000080",
+          "name": "History",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BOTQ5OTE0YzgtNTBlOC00MjQ1LTg5NzQtNTE0N2I5MjVkNGYxXkEyXkFqcGc@._V1_.jpg",
+            "width": 1366,
+            "height": 734
+          },
+          "description": "The history genre features recounting and analyzing past events, societies, cultures, and historical figures. This genre aims to provide insights into the development of civilizations, the causes and consequences of historical events, and the impact of individuals and ideas on the course of history."
+        },
+        {
+          "id": "in0000081",
+          "name": "Legal Drama",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTU0Njk2ODM4OF5BMl5BanBnXkFtZTgwODUxOTIwMjE@._V1_.jpg",
+            "width": 2400,
+            "height": 1350
+          },
+          "description": "The legal drama subgenre features legal cases, courtroom proceedings, and the practice of law. These dramas often revolve around lawyers, judges, clients, and legal conflicts, providing viewers with a glimpse into the complexities of the legal system, ethical dilemmas, and the pursuit of justice.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000082",
+          "name": "Medical Drama",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTAxOTQxNTIwMDZeQTJeQWpwZ15BbWU4MDI2MDg2ODAy._V1_.jpg",
+            "width": 2048,
+            "height": 1365
+          },
+          "description": "The medical drama subgenre features the lives of medical professionals, their interactions with patients, and the challenges they face in the medical field. These dramas provide viewers with insights into the world of healthcare, medical procedures, ethical dilemmas, and the emotional and personal experiences of both medical practitioners and patients.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000083",
+          "name": "Period Drama",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYTM5MWY2YWItNTllNC00Yzc3LTlkMTctZGM0ZDViZDczZmVjXkEyXkFqcGc@._V1_.jpg",
+            "width": 6960,
+            "height": 4426
+          },
+          "description": "The period drama subgenre transports audiences to the past, immersing them in historical contexts and offering insights into the lives, relationships, and challenges of characters from different time periods.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000084",
+          "name": "Political Drama",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYzc5ZTdmNmYtYTNkZC00MDRlLWI2ZDEtZmQzMTE0MzIwMjNjXkEyXkFqcGc@._V1_.jpg",
+            "width": 3000,
+            "height": 2001
+          },
+          "description": "The political drama subgenre features the intricacies of political power, government institutions, political conflicts, and the individuals involved in the political process. These dramas often explore themes of ambition, corruption, ethical dilemmas, and the impact of political decisions on society and individuals.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000085",
+          "name": "Prison Drama",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTQ5NTI4NDAxMV5BMl5BanBnXkFtZTcwMTQxNDY3Mw@@._V1_.jpg",
+            "width": 1800,
+            "height": 1203
+          },
+          "description": "The prison drama subgenre features the lives of inmates, prison staff, and the dynamics within correctional facilities. These dramas often explore themes of confinement, survival, redemption, human nature, and the impact of incarceration on individuals and society.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000086",
+          "name": "Psychological Drama",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BODkyMTYzNDExNl5BMl5BanBnXkFtZTcwNTAwOTMyMw@@._V1_.jpg",
+            "width": 2048,
+            "height": 1330
+          },
+          "description": "The psychological drama subgenre features intricate workings of the human mind, emotions, and psychological states. These dramas delve into characters' inner thoughts, perceptions, motivations, and often involve complex narratives and emotional depth, aiming to engage the audience's intellect and emotions simultaneously.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000087",
+          "name": "Showbiz Drama",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BODQ0MGRmN2YtYjhkNy00NWU1LTgyZTctM2VhNTkxMjAzMGE5XkEyXkFqcGc@._V1_.jpg",
+            "width": 3020,
+            "height": 2020
+          },
+          "description": "The showbiz drama subgenre features the challenges, successes, rivalries, and personal lives of individuals working in the entertainment industry, including film, television, theater, music, and other forms of media.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000088",
+          "name": "Soap Opera",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BN2IzMDcwZDUtYTZiMy00ZmE5LWE4Y2ItYTBjNWYzN2UxYWUwXkEyXkFqcGc@._V1_.jpg",
+            "width": 1080,
+            "height": 720
+          },
+          "description": "The soap opera, often referred to as a \"soap,\" is a TV series subgenre that features a melodramatic story of multiple interconnected storylines, with a focus on the lives, relationships, and conflicts of a diverse set of characters. The term \"soap opera\" originated from the early days of radio and television when soap manufacturers sponsored these dramas to promote their products.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000089",
+          "name": "Teen Drama",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNmY3YjBkOTktZDlkNS00NDY3LWExN2QtOGU3YjQwNGU4ZDU5XkEyXkFqcGc@._V1_.jpg",
+            "width": 1464,
+            "height": 1010
+          },
+          "description": "The teen drama subgenre features stories specifically aimed at a teenage audience. These dramas typically focus on the lives, relationships, challenges, and experiences of teenagers and young adults. They often explore themes of identity, friendship, romance, family dynamics, and personal growth, catering to the interests and concerns of their target demographic.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000090",
+          "name": "Tragedy",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTc4MTQxMTIwMl5BMl5BanBnXkFtZTgwNzM2NzE4OTE@._V1_.jpg",
+            "width": 2048,
+            "height": 1365
+          },
+          "description": "The tragedy subgenre features stories characterized by sorrowful events, unfortunate circumstances, and often a sense of inevitable and irreversible loss or downfall. They evoke deep emotions and can explore themes of human suffering, fate, moral dilemmas, and the complexity of human nature.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000091",
+          "name": "Workplace Drama",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTM2MTU0MTcyMV5BMl5BanBnXkFtZTcwNDgxNzgyMw@@._V1_.jpg",
+            "width": 2048,
+            "height": 1358
+          },
+          "description": "The workplace drama subgenre features the interactions, conflicts, and dynamics among employees within a specific workplace or professional environment. These stories often explore the challenges, relationships, power struggles, and personal issues that arise in a work setting.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000209",
+          "name": "Korean Drama",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMzk4MjRiYmUtNzkwMi00YWJiLTliMjktNDkyNzlmMjk4MThmXkEyXkFqcGc@._V1_.jpg",
+            "width": 1917,
+            "height": 781
+          },
+          "description": "The Korean Drama (K-Drama) subgenre features TV series that highlight South Korea's entertainment industry through its romantic and thrilling dramatic storytelling.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000210",
+          "name": "Telenovela",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZjM1ZTZjMDQtNzgxMi00MjNmLTk2ZmQtODA1ZTE0ZjYyMTYxXkEyXkFqcGc@._V1_.jpg",
+            "width": 1362,
+            "height": 759
+          },
+          "description": "The Telenovela subgenre features TV series that highlight the larger than life passion, drama and romance of Latin American soap operas. These stories often contain unsuspecting plot twists, love triangles and even murder.",
+          "isSubgenre": true
+        }
+      ]
+    },
+    {
+      "category": "Family",
+      "interests": [
+        {
+          "id": "in0000092",
+          "name": "Animal Adventure",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTQ5MTgyODg0NF5BMl5BanBnXkFtZTgwOTg2MTEwNDE@._V1_.jpg",
+            "width": 2048,
+            "height": 1152
+          },
+          "description": "The animal adventure subgenre features stories where animals are the central characters and protagonists in children's and family-oriented content. These stories often follow the animals as they embark on journeys, face challenges, and experience adventures in various settings.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000093",
+          "name": "Family",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTA1OTcyMzQ0MTBeQTJeQWpwZ15BbWU4MDIwNzE4OTEx._V1_.jpg",
+            "width": 1280,
+            "height": 870
+          },
+          "description": "The family genre features stories specifically created to be suitable for a wide range of age groups within a family. Family-oriented content is designed to be enjoyed by both children and adults, often providing entertainment that is wholesome, relatable, and appropriate for all members of a family to watch or experience together."
+        }
+      ]
+    },
+    {
+      "category": "Fantasy",
+      "interests": [
+        {
+          "id": "in0000095",
+          "name": "Dark Fantasy",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZjdhOTYwZTktNzUwOS00MWJiLWI0ZDgtN2ZhNzhlZTUzNmM4XkEyXkFqcGc@._V1_.jpg",
+            "width": 1400,
+            "height": 952
+          },
+          "description": "The dark fantasy subgenre features elements of fantasy combined with darker and more macabre themes. These stories often involves a blend of supernatural elements, magical realms, and horror-inspired elements, creating a unique and often unsettling atmosphere, distinct from traditional high fantasy or light-hearted fairy tales.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000096",
+          "name": "Fantasy Epic",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNDY5ZTkyYTQtNTZmMC00YTU2LTg1NjItMjE4MDZhYmNiZTRiXkEyXkFqcGc@._V1_.jpg",
+            "width": 6240,
+            "height": 4160
+          },
+          "description": "The fantasy epic subgenre features grand, sweeping narratives set in vast, imaginary worlds. These stories involve heroic quests, epic battles, intricate magic systems, and richly developed cultures and histories. They are known for their scope, depth, and immersive world-building.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000097",
+          "name": "Fairy Tale",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMWQ3NjU5NjMtY2ZhNy00ODU3LTlkNjAtMGE5ZDBkYmZlODIxXkEyXkFqcGc@._V1_.jpg",
+            "width": 2400,
+            "height": 1349
+          },
+          "description": "The fairy tale subgenre features narratives featuring magical and fantastical elements, often focusing on themes of morality, wonder, and the triumph of good over evil. Fairy tales are usually characterized by their timeless quality, enchanting settings, and archetypal characters.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000098",
+          "name": "Fantasy",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTc5NTU2NDQ5Ml5BMl5BanBnXkFtZTcwMDIxMjk2Mw@@._V1_.jpg",
+            "width": 1826,
+            "height": 1033
+          },
+          "description": "The fantasy genre features imaginative and often magical worlds, characters, and events. It explores realms beyond the boundaries of reality, featuring elements such as magic, mythical creatures, supernatural powers, and fantastical settings. These stories can take place in entirely fictional worlds or blend fantastical elements with real-world settings."
+        },
+        {
+          "id": "in0000099",
+          "name": "Supernatural Fantasy",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYmE5MDc4ZmMtNzI5Mi00MmIyLTkwZjYtNGFjNjYwMzhhNmVmXkEyXkFqcGc@._V1_.jpg",
+            "width": 2000,
+            "height": 1315
+          },
+          "description": "The supernatural fantasy subgenre features stories that blend fantastical elements with the supernatural, often involving interactions between the human world and realms inhabited by supernatural beings, spirits, or forces.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000100",
+          "name": "Sword & Sorcery",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BM2JkN2M5YjQtNTcwMC00NGU2LWE3MTAtYTQ4ZTRmZDljZGRiXkEyXkFqcGc@._V1_.jpg",
+            "width": 1200,
+            "height": 788
+          },
+          "description": "The sword and sorcery subgenre features heroic warriors wielding swords and engaging in battles, while also incorporating elements of magic and sorcery. This subgenre is known for its fast-paced, swashbuckling narratives that center on individual heroes or small groups of characters navigating dangerous and magical worlds.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000101",
+          "name": "Teen Fantasy",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjA2ODYzMjkwNF5BMl5BanBnXkFtZTcwNzAyODg5NA@@._V1_.jpg",
+            "width": 1800,
+            "height": 1200
+          },
+          "description": "The teen fantasy subgenre features fantastical elements with themes and issues that are relevant to adolescents, making them relatable and engaging for younger viewers. Teen fantasy often explores coming-of-age experiences, personal growth, identity, and the challenges of navigating both the real and the magical worlds.",
+          "isSubgenre": true
+        }
+      ]
+    },
+    {
+      "category": "Game Show",
+      "interests": [
+        {
+          "id": "in0000102",
+          "name": "Beauty Competition",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZDVlNjYwMjctNGUzOC00NTdiLTllY2QtYjExOWY0NjAzYmUyXkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          "description": "The beauty competition subgenre features TV series with contestants participating in various challenges and competitions related to beauty, talent, and sometimes intelligence or personality.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000103",
+          "name": "Cooking Competition",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZjA1NDhiOGItZDY2Yi00ZjNmLWJmZjItMTZkNWRjYjM4ZDhhXkEyXkFqcGc@._V1_.jpg",
+            "width": 4800,
+            "height": 3200
+          },
+          "description": "The cooking competition subgenre features TV series with professional chefs, amateur cooks, or culinary enthusiasts competing against each other in a series of cooking challenges. These challenges often test the contestants' culinary skills, creativity, teamwork, and ability to work under pressure.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000104",
+          "name": "Quiz Show",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BODVmYjYyM2MtOTBjMy00ZGQwLWJiMTktYzIwMmI0MTE3ZGVjXkEyXkFqcGc@._V1_.jpg",
+            "width": 3000,
+            "height": 1996
+          },
+          "description": "The quiz show subgenre features TV series asking contestants a series of questions on a wide range of topics, with the aim of testing their knowledge, quick thinking, and problem-solving abilities. Contestants compete against each other to answer questions correctly and accumulate points or prizes based on their performance.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000105",
+          "name": "Game Show",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BOGJmMzdiNTktNzJmYi00MjMxLTk0YjItNmZkMWVkYmNjNzE1XkEyXkFqcGc@._V1_.jpg",
+            "width": 4096,
+            "height": 2729
+          },
+          "description": "The game show genre features TV series with contestants competing against each other in various challenges, tasks, or quizzes to win prizes or rewards. Game shows are designed to engage viewers by presenting exciting and often competitive scenarios that involve participants using their knowledge, skills, and strategies to outperform their opponents and win."
+        },
+        {
+          "id": "in0000106",
+          "name": "Survival Competition",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNjcyYTc1NTctOTQwMi00OGE5LTg2ZWMtYjQwZGIyMmFhMGE4XkEyXkFqcGc@._V1_.jpg",
+            "width": 3000,
+            "height": 1688
+          },
+          "description": "The survival competition subgenre features TV series with contestants in challenging and often extreme environments, requiring them to navigate difficult conditions, complete tasks, and compete against each other to remain in the competition. The primary focus is to test contestants' physical endurance, mental toughness, teamwork, and adaptability to harsh environments.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000107",
+          "name": "Talent Competition",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNzg4YjU3N2MtNzEzNy00YTMyLTgyYmQtMzg4MzkwNWVkYjgyXkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          "description": "The talent competition subgenre features TV series with contestants showcasing their unique talents, skills, and abilities in front of a panel of judges and a live or television audience. Contestants compete against each other to impress the judges and advance in the competition based on their talents, creativity, and stage presence.",
+          "isSubgenre": true
+        }
+      ]
+    },
+    {
+      "category": "Horror",
+      "interests": [
+        {
+          "id": "in0000108",
+          "name": "B-Horror",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNzMzNTI3MTg2NV5BMl5BanBnXkFtZTgwMTUwODU0NjM@._V1_.jpg",
+            "width": 2048,
+            "height": 1633
+          },
+          "description": "The b-horror subgenre features modest production values, simple plots, and reliance on certain horror tropes and clichés. The stories are often low-budget, low-quality, and sometimes intentionally campy or cheesy. The \"B\" designation originally referred to the second feature in a double feature presentation, with the \"A\" film being the main attraction. Over time, \"B-movies\" became associated with low-budget and less prestigious productions.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000109",
+          "name": "Body Horror",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjA0NDE0NDM1Ml5BMl5BanBnXkFtZTgwMzk0ODIwMjE@._V1_.jpg",
+            "width": 4318,
+            "height": 2874
+          },
+          "description": "The body horror subgenre features the physical and psychological transformation, deformation, or degradation of the human body. In body horror stories, the human body itself becomes a source of fear, anxiety, and disgust, often through graphic and disturbing depictions of bodily changes, mutilation, or alteration.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000110",
+          "name": "Folk Horror",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTI2MGE4YWQtNjQ4YS00MjU1LTgzNGUtMWZmZTMwNzM4OGRjXkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 959
+          },
+          "description": "The folk horror subgenre features themes of rural folklore, pagan beliefs, and the supernatural or uncanny elements associated with rural or isolated settings. Folk horror often explores the clash between ancient, often pre-Christian traditions and modern society, blurring the line between the natural and the supernatural.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000111",
+          "name": "Found Footage Horror",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNTJiYjhkM2YtNjU0MC00MzMwLWE1ODktMGFkZWM3NTk4NDdkXkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1090
+          },
+          "description": "The found footage horror subgenre features the story as if it were recorded footage discovered after the events have occurred. The footage is often presented in a raw, unedited format, giving the impression that the events depicted are real and unscripted.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000112",
+          "name": "Horror",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNThjMTAxN2QtOTkyMS00Y2EwLTgyMDctOWY2NTY0MzYzZjQ0XkEyXkFqcGc@._V1_.jpg",
+            "width": 1280,
+            "height": 688
+          },
+          "description": "The horror genre features stories that aim to elicit fear, suspense, and a sense of dread in its audience. Horror stories often explore themes related to the unknown, the supernatural, and the macabre, and they frequently evoke strong emotional reactions such as anxiety, terror, and unease."
+        },
+        {
+          "id": "in0000113",
+          "name": "Monster Horror",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZGI2YzBjZDgtNjY0MS00NGIyLThhZjctODEzZmVjZDgzMzE3XkEyXkFqcGc@._V1_.jpg",
+            "width": 2532,
+            "height": 1058
+          },
+          "description": "The monster horror subgenre features the portrayal of monstrous creatures or entities as central elements of fear and terror. In monster horror stories, the creatures themselves are often the primary sources of danger, and the plot revolves around characters' attempts to survive encounters with these terrifying beings.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000114",
+          "name": "Psychological Horror",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTUxMjEzNzE1NF5BMl5BanBnXkFtZTgwNDYwNjUzMTI@._V1_.jpg",
+            "width": 2048,
+            "height": 1151
+          },
+          "description": "The psychological horror subgenre features psychological tension, fear, and suspense to evoke feelings of dread and unease in the audience. Rather than relying solely on graphic violence or jump scares, psychological horror focuses on the psychological and emotional experiences of characters, often exploring their inner fears, anxieties, and perceptions.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000115",
+          "name": "Slasher Horror",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZTQ1MmFmYmUtNWI4YS00YjJhLTk0YzgtZGM4ODQ4N2ZkYTAzXkEyXkFqcGc@._V1_.jpg",
+            "width": 1777,
+            "height": 746
+          },
+          "description": "The slasher horror subgenre features a distinctive formula of violence, suspense, and a masked or anonymous killer who systematically stalks and murders victims. Slasher stories are known for their intense and graphic scenes of violence, particularly focused on the act of murder, and they often incorporate elements of mystery and survival.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000116",
+          "name": "Splatter Horror",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjQxNjAxNDMtYThhZi00NDBiLTlkOGMtZmZmN2JiY2E4MTc1XkEyXkFqcGc@._V1_.jpg",
+            "width": 1024,
+            "height": 768
+          },
+          "description": "The splatter horror subgenre, features extreme and graphic depictions of violence, gore, and bloodshed, showcasing visceral and shocking visual effects. Splatter stories are known for their over-the-top and often exaggerated scenes of bodily mutilation, dismemberment, and other gruesome forms of violence.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000117",
+          "name": "Supernatural Horror",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNWEwY2NjZjItMzA5Zi00ZDU0LTljOWItOGZiODJhMGE5MTIyXkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          "description": "The supernatural horror subgenre features paranormal and supernatural elements as sources of fear and terror. In supernatural horror stories, the focus is on entities, forces, or occurrences that go beyond the natural world and challenge the laws of reality, including ghosts, demons, witches, curses, haunted houses, possession, and other phenomena that are unexplainable.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000118",
+          "name": "Teen Horror",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTQ3ODE1MTI2Ml5BMl5BanBnXkFtZTgwNTk4OTIwMjE@._V1_.jpg",
+            "width": 4779,
+            "height": 3072
+          },
+          "description": "The teen horror subgenre features young protagonists facing various forms of terror and supernatural threats. These stories are typically targeted toward a young adult audience and revolve around the traditional experiences and challenges of teenagers as they confront paranormal occurrences, monsters, killers, or other horror elements.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000119",
+          "name": "Vampire Horror",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjE0NjY4OTEwNl5BMl5BanBnXkFtZTgwMTE0OTIwMjE@._V1_.jpg",
+            "width": 4775,
+            "height": 3075
+          },
+          "description": "The vampire horror subgenre features the depiction of vampires, supernatural creatures who sustain themselves by consuming the blood of the living, as central figures of fear and fascination. Vampire horror can use vampirism as a metaphor for various themes, such as addiction, the fear of death, and the loss of humanity.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000120",
+          "name": "Werewolf Horror",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjA3OTU0ODQ4MV5BMl5BanBnXkFtZTgwNjAzNDg0MDI@._V1_.jpg",
+            "width": 2048,
+            "height": 1359
+          },
+          "description": "The werewolf horror subgenre features the depiction of werewolves as central figures of fear and terror. These mythical creatures transform from human to wolf-like forms. Werewolf horror stories typically explore the consequences of these transformations, as well as the violence and chaos that accompany them.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000121",
+          "name": "Witch Horror",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTY0OTI4OTcwMV5BMl5BanBnXkFtZTgwMzMxNzgyNDE@._V1_.jpg",
+            "width": 1743,
+            "height": 1050
+          },
+          "description": "The witch horror subgenre features witches and witchcraft as central elements of fear and terror. These stories explore themes related to magic, the occult, and the clash between the supernatural and the mundane.  Witch horror can explore themes of historical and societal persecution of alleged witches, often drawing on real-world witch trials and witch hunts.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000122",
+          "name": "Zombie Horror",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTJjZWE5NzYtYjEyNC00ZDUyLTgxMTAtNDgyOWUzZWExMzUwXkEyXkFqcGc@._V1_.jpg",
+            "width": 1279,
+            "height": 720
+          },
+          "description": "The zombie horror subgenre features zombies, reanimated corpses, as central figures of fear and terror. The subgenre often explores themes of survival, societal breakdown, and can serve as a metaphor for societal anxieties, consumerism, conformity, and the dehumanizing effects of mass culture.",
+          "isSubgenre": true
+        }
+      ]
+    },
+    {
+      "category": "Language",
+      "interests": [
+        {
+          "id": "in0000213",
+          "name": "Arabic",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BOTI1MTAyYjItOWZjMS00ZDU5LTgzOGMtODk1YWMwNTMxYzJiXkEyXkFqcGc@._V1_.jpg",
+            "width": 1067,
+            "height": 800
+          },
+          "description": "Arabic-language cinema spans many regions, with Egypt pioneering popular musicals and melodramas, while Lebanon, Palestine, and North Africa use film as a medium for political expression and memory. Collectively, it expresses Arab identity onscreen and has influenced storytelling across the Middle East."
+        },
+        {
+          "id": "in0000214",
+          "name": "Bengali",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTQ5NjQzMDQyMl5BMl5BanBnXkFtZTgwNTQzMTI1NTE@._V1_.jpg",
+            "width": 3548,
+            "height": 2604
+          },
+          "description": "Bengali cinema is admired for its poetic realism, humanist focus, and deep literary ties. Often influenced by literature, it balances art-house traditions with socially conscious storytelling, exploring morality, class, and the rhythms of rural life."
+        },
+        {
+          "id": "in0000215",
+          "name": "Cantonese",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYmFhZmUwMTktMWRmYi00Y2E2LTk4MGQtZjk5ZTg3MWE0MzAxXkEyXkFqcGc@._V1_.jpg",
+            "width": 1808,
+            "height": 1080
+          },
+          "description": "Cantonese cinema from Hong Kong is globally recognized for its action films, martial arts epics, and romantic melodramas. Its innovation in choreography, editing, and atmosphere continues to set new standards for genre filmmaking."
+        },
+        {
+          "id": "in0000216",
+          "name": "Dutch",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNzJiYTUzYTItNTU1Yi00MzQxLWFjNzMtNjY1YzAwNzJiZjQzXkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 800
+          },
+          "description": "Dutch cinema often combines understated realism with offbeat humor, tackling moral ambiguity and social change. It balances intimate storytelling with bold, sometimes provocative, visual styles. Dutch films combine art-house sensibility with grounded storytelling, reflecting the country's open, yet quietly complex culture."
+        },
+        {
+          "id": "in0000217",
+          "name": "Filipino",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYzhlYjAwODYtYzkzMy00YjgxLWE2YjctNzdiNDM5MDdkNmVmXkEyXkFqcGc@._V1_.jpg",
+            "width": 1280,
+            "height": 738
+          },
+          "description": "Filipino cinema ranges from popular comedies, romances, action, and horror to socially engaged films that confront political and economic realities, showcasing the reslience and creativity of its people. It has influenced filmmaking through its honesty, intensity, and creativity, experimenting with both traditional and innovative narrative styles."
+        },
+        {
+          "id": "in0000218",
+          "name": "Finnish",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZThjYjFiZTQtMGI1My00YjY2LWFiMDMtYWFhMTg1N2UyY2M5XkEyXkFqcGc@._V1_.jpg",
+            "width": 3184,
+            "height": 2126
+          },
+          "description": "Finnish cinema is known for its minimalist style, dry humor, and reflective mood. It often explores loneliness, resilience, and human connection against stark northern landscapes. Finnish films balance melancholy and warmth, capturing the Nordic atmosphere through understated human drama and strong character focus."
+        },
+        {
+          "id": "in0000219",
+          "name": "French",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMzYzNDg5MTY5Ml5BMl5BanBnXkFtZTgwNzA2ODk5MTE@._V1_.jpg",
+            "width": 2068,
+            "height": 1459
+          },
+          "description": "French-language cinema, whether in France, Québec, or other Francophone regions, explores cultural identity, social change, and the tension between the individual and society. French cinema is not only celebrated for its intellectual experimentation and auteur traditions, but also its success in mainstream comedy, romance, and commercial entertainment. In Québec, films often focus on questions of language, belonging, and community within a distinct cultural landscape."
+        },
+        {
+          "id": "in0000220",
+          "name": "German",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZmJlNDA4N2ItZTdiYy00OWI4LThmZjMtNmY1ZjVmYmIzYzk5XkEyXkFqcGc@._V1_.jpg",
+            "width": 590,
+            "height": 504
+          },
+          "description": "German cinema is famous for its historical depth, expressionist aesthetics, and social-political engagement. It has moved from Expressionism to political reckoning, from New German Cinema's raw realism to contemporary genre experiments. Its legacy lies in both technical innovation and deep explorations of history, morality, and philosophy."
+        },
+        {
+          "id": "in0000221",
+          "name": "Greek",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTUzMTUzODkzM15BMl5BanBnXkFtZTcwMTMxMDMzNA@@._V1_.jpg",
+            "width": 1280,
+            "height": 852
+          },
+          "description": "Greek cinema draws on myth, politics, and allegory, often using surrealism and symbolism to explore identity and collective memory. The Weird Wave brought absurdism and dark humor to the fore. Recent Greek films often depict austerity, personal struggle, and resilience with raw emotional power and stark visual storytelling, reflecting contemporary Greek life."
+        },
+        {
+          "id": "in0000222",
+          "name": "Hindi",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNjYwYzBhNjMtNzNmMC00NDhkLTgxYjAtZjkyNDA5OWJlOTNjXkEyXkFqcGc@._V1_.jpg",
+            "width": 3840,
+            "height": 2160
+          },
+          "description": "Hindi cinema, or Bollywood, is celebrated for its vibrant storytelling that blends music, colorful spectacle, action and powerful melodrama. Rooted in Indian culture, these films often feature elaborate song-and-dance sequences, charismatic stars, and themes ranging from family bonds and personal sacrifice to contemporary social issues. Bollywood has become a powerful cultural phenomenon, resonating with audiences around the world."
+        },
+        {
+          "id": "in0000223",
+          "name": "Italian",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZGM2NDBjYjAtMGE0ZC00MThkLTg0NGQtOTM2Njc5MzdkNzliXkEyXkFqcGc@._V1_.jpg",
+            "width": 960,
+            "height": 720
+          },
+          "description": "Italian cinema has deeply influenced world cinema through its socially conscious realism and modernist experimentation, but it also flourished in popular genres like peplum (sword & sandal), giallo thrillers, and broad comedies. Its narratives often weave together politics, contemporary social change, class consciousness, and family dynamics, balancing artistic ambition with entertainment that resonated widely."
+        },
+        {
+          "id": "in0000224",
+          "name": "Japanese",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNGI1MThmNWQtYjM4NC00NTg1LWE5Y2EtM2M4MDVhMDk4MTk2XkEyXkFqcGc@._V1_.jpg",
+            "width": 1328,
+            "height": 885
+          },
+          "description": "Japanese cinema is celebrated for its refined minimalist dramas and avant-garde experimentation; it also introduced popular genres like jidaigeki (samurai epics), kaiju, and anime. Across both high art and mass entertainment, it often explores morality, impermanence, and the pressures of modern life."
+        },
+        {
+          "id": "in0000225",
+          "name": "Korean",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTMyNzQxMjc3OF5BMl5BanBnXkFtZTcwNjQ4MTI2NQ@@._V1_.jpg",
+            "width": 1393,
+            "height": 922
+          },
+          "description": "Korean cinema is known for its mastery of genre, fluidly blending thriller, drama, and dark comedy with social critique. The post-1990s renaissance brought bold storytelling and masterful craft to the world stage, addressing class, identity, and modern anxieties with cinematic flair."
+        },
+        {
+          "id": "in0000226",
+          "name": "Mandarin",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZjRjZTJkMDItMDJlYi00ZDRhLWE4ZDgtY2JkYjY2YjJlN2JiXkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          "description": "Mandarin-language cinema across Mainland China, Taiwan, and Singapore explores historical reflection, cultural identity, and personal sacrifice, often expressed through poetic visuals and sweeping narratives. In Mainland China, this takes the form of allegory and large-scale epics that reflect on national history. Taiwan emphasizes intimate modernist realism, generational change, and the search for identity. Singapore contributes stories of migration, multiculturalism, and the negotiation of tradition in a globalized city."
+        },
+        {
+          "id": "in0000227",
+          "name": "Marathi",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTgxMzg2OTczMV5BMl5BanBnXkFtZTgwNDc3MzIwNjE@._V1_.jpg",
+            "width": 2048,
+            "height": 858
+          },
+          "description": "Marathi cinema, India's oldest film industry, is known for its literary richness, social conscience, and realistic portrayals of everyday life in Maharashtra. It often addressing daily struggles, social justice, and human emotions with authenticity, nuance, and depth."
+        },
+        {
+          "id": "in0000228",
+          "name": "Norwegian",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNDE4YWY1MTMtYjMwZC00MDg4LWFiNDYtM2I2NjA5MzFmNTA1XkEyXkFqcGc@._V1_.jpg",
+            "width": 3996,
+            "height": 2160
+          },
+          "description": "Norwegian cinema is noted for its naturalistic storytelling, rugged landscapes, and introspection. It often explores themes of isolation, existential crisis, and human connection in a quietly intense minimalist style."
+        },
+        {
+          "id": "in0000229",
+          "name": "Persian",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTk0MDU3NDQ0Nl5BMl5BanBnXkFtZTcwOTYxNzk4Ng@@._V1_.jpg",
+            "width": 2048,
+            "height": 1370
+          },
+          "description": "Persian-language (primarily Iranian) cinema is acclaimed for poetic allegory, moral depth, and inventive ways of navigating censorship. It often uses non-professional actors, minimalism and symbolism to explore moral dilemmas, social issues, and the human condition under political constraints."
+        },
+        {
+          "id": "in0000230",
+          "name": "Portuguese",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTc5MzkzNzk5MV5BMl5BanBnXkFtZTcwMjc4MTE5Ng@@._V1_.jpg",
+            "width": 2048,
+            "height": 1145
+          },
+          "description": "Portuguese-language cinema, spanning Portugal, Brazil, and other Lusophone regions, focuses on history, cultural identity, and the struggles of ordinary people, often framed with poetic or allegorical storytelling. In Portugal, cinema has emphasized meditative pacing and philosophical depth, reflecting on memory and tradition. In Brazil, it has often been politically charged and socially vibrant, highlighting inequality and resilience while experimenting with popular and avant-garde forms."
+        },
+        {
+          "id": "in0000231",
+          "name": "Punjabi",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNGJlMmVhMTAtNzBlYi00YjI3LTkyYzctYzdiMjBmMjY1Njc1XkEyXkFqcGc@._V1_.jpg",
+            "width": 2160,
+            "height": 1212
+          },
+          "description": "Punjabi cinema is known for its vibrant storytelling, rich cultural themes, and strong musical influence. It often blends humor, romance, and family values, reflecting the spirit of Punjab. With deep ties to the Punjabi diaspora, it resonates strongly with audiences both in India and around the world."
+        },
+        {
+          "id": "in0000232",
+          "name": "Russian",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYjI5ZjdmODUtMDgzYy00MzM1LTg0NzUtZGRhZDQyNzEyODI5XkEyXkFqcGc@._V1_.jpg",
+            "width": 1366,
+            "height": 768
+          },
+          "description": "Russian cinema is distinguished by its epic scale, philosophical depth, and innovative visual language. It often explores history, ideology, and the human psyche, with a tradition of psychological realism and artistic experimentation. Russian cinema contributed revolutionary theories of editing and later a spiritual approach to film language. It remains known for combining formal experimentation with profound explorations of endurance and belief."
+        },
+        {
+          "id": "in0000233",
+          "name": "Spanish",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNjA0Yzk5MzAtYTc4ZS00MGVjLTliZmItMTU3MTY2MjIzZGUxXkEyXkFqcGc@._V1_.jpg",
+            "width": 2712,
+            "height": 2024
+          },
+          "description": "Spanish-language cinema across Spain and Latin America is united by its engagement with history, cultural identity, and social transformation. In Spain, films often balance artistic experimentation with popular genres while reflecting on memory, politics, and family. In Latin America, cinema has been deeply tied to questions of colonial legacy, resistance, and community resilience, ranging from intimate dramas to bold political allegories."
+        },
+        {
+          "id": "in0000234",
+          "name": "Swedish",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BY2U2YjM3YjMtY2U0ZC00Nzk3LTk0OTMtZmJiZDNhMTc0ZGRlXkEyXkFqcGc@._V1_.jpg",
+            "width": 1120,
+            "height": 815
+          },
+          "description": "Swedish cinema is renowned for psychological depth, austere beauty, and philosophical inquiry. It often focuses on existential questions and societal critique, marked by a stark visual approach. In contemporary times, it has also developed a sharp satirical edge in examining social issues."
+        },
+        {
+          "id": "in0000235",
+          "name": "Tamil",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZTRmZjFmNWItNzM0ZS00YjJlLWI1YjktM2YyZjZjZTJiMmIwXkEyXkFqcGc@._V1_.jpg",
+            "width": 888,
+            "height": 567
+          },
+          "description": "Tamil cinema is known for its powerful storytelling, technical finesse, and emotionally resonant narratives. Its larger-than-life stars enjoy immense popularity, often shaping public discourse and influencing cultural identity. The industry blends mass appeal with meaningful social themes, making it deeply rooted in life in Tamil Nadu."
+        },
+        {
+          "id": "in0000236",
+          "name": "Telugu",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BODgzMGYyYjAtMmRhNi00ZGM4LTkwOTMtNzAzM2Q5MjM1MzZjXkEyXkFqcGc@._V1_.jpg",
+            "width": 2048,
+            "height": 858
+          },
+          "description": "Telugu cinema is a dynamic industry celebrated for its grand spectacles, mythic storytelling, and emotionally charged narratives. It played a pivotal role in shaping the pan-Indian film phenomenon, producing blockbuster hits that transcend regional boundaries and influence the broader Indian cinematic landscape. Its recent global rise shows its ability to combine visual extravagance with universal themes."
+        },
+        {
+          "id": "in0000237",
+          "name": "Thai",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNDExMjgwMTUyOV5BMl5BanBnXkFtZTgwOTYwODcxMzI@._V1_.jpg",
+            "width": 1200,
+            "height": 675
+          },
+          "description": "Thai cinema blends spirituality, folklore, and experimental techniques, producing films that balance mystical introspection with popular entertainment. It stands out in Southeast Asia for its inventiveness and range, spanning from lyrical slow cinema to inventive genre-blending films that seamlessly weave in horror, romance, and social critique with unique narrative styles rooted in Thai tradition."
+        },
+        {
+          "id": "in0000238",
+          "name": "Turkish",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BN2VjNWM3YTUtMDAzNS00YTNkLTg1ZTktYjk4NWQ2MzNjMjQwXkEyXkFqcGc@._V1_.jpg",
+            "width": 998,
+            "height": 561
+          },
+          "description": "Turkish cinema reflects the country's position between East and West, combining melodrama, political allegory, and contemplative realism. It often explores identity, memory, and the tension between tradition and modernity. The Yeşilçam era was prolific, while modern auteurs have gained festival prominence."
+        },
+        {
+          "id": "in0000239",
+          "name": "Urdu",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNDAyYTMxMjgtMTA5YS00ODFkLTkzNDItOTA5Yzk2NmUxYTEyXkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          "description": "Urdu cinema, especially in Pakistan, is known for its poetic dialogue, musical traditions, and melodrama, often exploring romance, morality, and class. Historically, it thrived on musicals and romances that shaped national identity. In recent decades, it has undergone a revival, balancing popular appeal with more socially conscious storytelling."
+        },
+        {
+          "id": "in0000240",
+          "name": "Malayalam",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYTA4Yjg0NGUtOTNmMS00YzdiLWEwNzAtNWFlZjIwZDYwZDM2XkEyXkFqcGc@._V1_.jpg",
+            "width": 1200,
+            "height": 800
+          },
+          "description": "Malayalam cinema, based in Kerala, is known for its grounded narratives, literary screenplays, and strong character-driven storytelling.The industry is celebrated for innovatively blending realism with bold, socially conscious themes."
+        },
+        {
+          "id": "in0000241",
+          "name": "Kannada",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNTQ5OTYzZGMtYjAxMC00M2ViLTk3N2YtNDQyNWJmZDkxOWRlXkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          "description": "Kannada cinema blends folklore, social critique, and popular storytelling, balancing art-house traditions with mass-oriented blockbusters. Its dual identity makes it one of the most versatile industries in India."
+        }
+      ]
+    },
+    {
+      "category": "Lifestyle",
+      "interests": [
+        {
+          "id": "in0000123",
+          "name": "Beauty Makeover",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTk4Njg5ODg3NF5BMl5BanBnXkFtZTgwNTY2Mzk2NTM@._V1_.jpg",
+            "width": 2048,
+            "height": 1152
+          },
+          "description": "The beauty makeover TV series subgenre features transforming individuals' appearances through various beauty treatments, makeovers, and lifestyle changes. These shows typically feature participants who are seeking to enhance their physical appearance, boost their confidence, or undergo a significant transformation.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000124",
+          "name": "Cooking & Food",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTU4MTUxNjU3MV5BMl5BanBnXkFtZTgwMTU5MzQxNjM@._V1_.jpg",
+            "width": 2048,
+            "height": 1365
+          },
+          "description": "The cooking & food lifestyle TV series subgenre features cooking, culinary experiences, and tasks that center around cooking techniques, recipes, culinary exploration, and the culture surrounding food.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000125",
+          "name": "Home Improvement",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYjlmNTI1ZjQtODhiOC00YjMyLWJhZmEtNzEwNzY1NzI3ZmEyXkEyXkFqcGc@._V1_.jpg",
+            "width": 1280,
+            "height": 960
+          },
+          "description": "The home improvement reality TV series subgenre features renovating, remodeling, and improving residential properties. These shows often follow homeowners, designers, contractors, and experts as they work on various home improvement projects, offering viewers insights into the design process, construction techniques, and creative transformations.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000126",
+          "name": "Lifestyle",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjE1NzkzNjU0MF5BMl5BanBnXkFtZTgwNzM0MjQ5NjM@._V1_.jpg",
+            "width": 2048,
+            "height": 1365
+          },
+          "description": "The lifestyle TV series genre features content focused on various aspects of everyday life, personal interests, hobbies, and cultural trends. Lifestyle content often offers viewers information, tips, and inspiration related to different aspects of their lives, allowing them to explore and enhance their interests, preferences, and activities."
+        },
+        {
+          "id": "in0000127",
+          "name": "Talk Show",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BM2IxOGRhN2UtMGZiMC00OGI1LWE5NzktOGYxMTU5YzEwMTk3XkEyXkFqcGc@._V1_.jpg",
+            "width": 2048,
+            "height": 1156
+          },
+          "description": "The talk show TV series genre features discussions, conversations, and interviews on various topics, often involving guests who are experts, celebrities, or individuals with unique experiences. These shows can cover a wide range of subjects, including current events, entertainment, politics, lifestyle, human interest stories, and more."
+        },
+        {
+          "id": "in0000128",
+          "name": "Travel",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYzA2ZjkxNzItMzE5Ni00OWQzLTlkM2MtZWRiMmRiYWNmYTU2XkEyXkFqcGc@._V1_.jpg",
+            "width": 3840,
+            "height": 2160
+          },
+          "description": "The travel TV series subgenre features individuals or groups as they embark on journeys, explore new destinations, and experience different cultures and environments. These shows capture the participants' adventures, interactions with locals, and their reactions to various travel-related challenges and experiences.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000211",
+          "name": "News",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjI3MDY2NjQ4Ml5BMl5BanBnXkFtZTgwNjg2ODI0MTI@._V1_.jpg",
+            "width": 2048,
+            "height": 1365
+          },
+          "description": "The news genre delivers timely and factual information about current events, developments, and issues of public interest. The primary purpose of news content is to inform the audience about what is happening in the world around them, providing them with essential facts, analysis, and context.",
+          "isSubgenre": true
+        }
+      ]
+    },
+    {
+      "category": "Music",
+      "interests": [
+        {
+          "id": "in0000129",
+          "name": "Concert",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZWY3MGRkNWItYThlMS00MWVhLWEyOGEtOWUzYTI0Y2I4NTkzXkEyXkFqcGc@._V1_.jpg",
+            "width": 1600,
+            "height": 900
+          },
+          "description": "The concert music subgenre features live musical performances and events, including recordings of musical artists or bands performing their music in front of a live audience.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000130",
+          "name": "Music",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNzJjNGEzMGMtOGEyZi00MjNkLWIyMjgtMDc0MmMwZGYzZGM0XkEyXkFqcGc@._V1_.jpg",
+            "width": 2995,
+            "height": 1894
+          },
+          "description": "The music genre features stories showcasing musical performances, music-related documentaries and recordings of live concerts and music festivals."
+        }
+      ]
+    },
+    {
+      "category": "Musical",
+      "interests": [
+        {
+          "id": "in0000131",
+          "name": "Classic Musical",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZTI4MjcyOTItYzVlZS00NTc4LWEyYzktNTFlYTRmNTIzYzE5XkEyXkFqcGc@._V1_.jpg",
+            "width": 5369,
+            "height": 4200
+          },
+          "description": "The classic musical subgenre feature lavish production values, elaborate dance numbers, and catchy songs that have since become popular hits. These musicals were produced from the Golden Age of Hollywood to the late 1960s.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000132",
+          "name": "Jukebox Musical",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYjVmZTRlZjgtYjBkOS00YmFlLWJlNzktNjZkMjRlNjEwMGY3XkEyXkFqcGc@._V1_.jpg",
+            "width": 720,
+            "height": 360
+          },
+          "description": "The jukebox musical subgenre features pre-existing songs, often popular hits from a specific artist or era, as the foundation of its musical score. These musicals use well-known songs to tell a new or existing story, creating a unique blend of familiar music and original narrative. The term \"jukebox\" refers to the concept of selecting songs from a jukebox, a machine that plays music when coins are inserted.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000133",
+          "name": "Musical",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjEyNDc2MDMyNV5BMl5BanBnXkFtZTcwNDU0MTUzNA@@._V1_.jpg",
+            "width": 2048,
+            "height": 1630
+          },
+          "description": "The musical genre features stories that combine music, singing, dancing, acting, and often spoken dialogue to tell a story or convey a narrative. Musicals incorporate various elements of drama, music, and choreography to create a cohesive theatrical experience that engages audiences on multiple levels."
+        },
+        {
+          "id": "in0000134",
+          "name": "Pop Musical",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZTM0MjIxOTItMDgxMy00MjAwLWE1NDQtYzZhNjUxMjJhYjlmXkEyXkFqcGc@._V1_.jpg",
+            "width": 3600,
+            "height": 2479
+          },
+          "description": "The pop musical subgenre features elements of pop music in its songs, style, and overall presentation. Pop musicals often feature catchy melodies, contemporary musical arrangements, and themes that resonate with modern audiences. These musicals combine the conventions of traditional musical theater with the popular music sensibilities of the time.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000135",
+          "name": "Rock Musical",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTY4MzA1MzM2OV5BMl5BanBnXkFtZTgwMzE1NTU5MTE@._V1_.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          "description": "The rock musical subgenre features rock music elements in its songs, style, and thematic content. These stories fuse the conventions of traditional musical theater with the energetic and rebellious spirit of rock music, resulting in a dynamic and often edgy theatrical experience.",
+          "isSubgenre": true
+        }
+      ]
+    },
+    {
+      "category": "Mystery",
+      "interests": [
+        {
+          "id": "in0000136",
+          "name": "Bumbling Detective",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BOWUxMGI5YTAtOTM0Ni00OWYxLThkNDEtN2ExZmMxN2U1MDU5XkEyXkFqcGc@._V1_.jpg",
+            "width": 5038,
+            "height": 3359
+          },
+          "description": "The bumbling detective subgenre features a detective or amateur detective who is notably inept, clumsy, or unskilled in solving crimes. Humor in these stories arises from the detective's missteps, blunders, and comical misunderstandings, often juxtaposed with the seriousness of the crimes they are attempting to solve.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000137",
+          "name": "Cozy Mystery",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNmU1OTljNGYtYzEwMC00ZWYxLWI0YzktNjZlNjE2YmU4NWVhXkEyXkFqcGc@._V1_.jpg",
+            "width": 750,
+            "height": 422
+          },
+          "description": "The cozy mystery subgenre, also known as \"cozies\", features a light-hearted and often charming approach to crime-solving that focuses on puzzle-solving rather than graphic violence or intense suspense. Cozy mysteries typically feature amateur detectives, often in small, close-knit communities or quaint settings, who investigate crimes while maintaining a cozy and comfortable atmosphere.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000138",
+          "name": "Hard-boiled Detective",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BY2ZmZGJhMGYtNTM5Mi00NTJhLThkZDctZTljYWZhZDU2ZDRiXkEyXkFqcGc@._V1_.jpg",
+            "width": 1100,
+            "height": 618
+          },
+          "description": "The hard-boiled detective subgenre features gritty, realistic, and often morally complex narratives centered around tough and cynical protagonists. These stories typically take place in urban settings and delve into the darker aspects of society, including crime, corruption, and moral ambiguity.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000139",
+          "name": "Mystery",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMzBiMjliOWUtYjBhNC00NWI1LWEzMzYtMjZmZTY4YmM1MzQwXkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          "description": "The mystery genre features the investigation and solving of a puzzle, typically a crime or an enigmatic event. Mysteries are known for their suspenseful narratives, intricate plots, and the challenge they present to readers or viewers to piece together clues and solve the central mystery alongside the characters."
+        },
+        {
+          "id": "in0000140",
+          "name": "Suspense Mystery",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZjgwNzRkZWYtZjA5YS00MmU4LWE3NmQtOWI1OTQxNjQ4MzcwXkEyXkFqcGc@._V1_.jpg",
+            "width": 1609,
+            "height": 970
+          },
+          "description": "The suspense mystery subgenre features a narrative that keeps viewers on the edge of their seats while they unravel a central mystery. In these stories, the tension and anticipation are heightened as the characters investigate a perplexing situation, often involving danger, unexpected twists, and the gradual revelation of secrets.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000141",
+          "name": "Whodunnit",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNjQ0OTc2NjY4MF5BMl5BanBnXkFtZTcwMjM5MTExNw@@._V1_.jpg",
+            "width": 2048,
+            "height": 1362
+          },
+          "description": "The whodunit subgenre, derived from the question \"Who [has] done it?\", features the investigation of a crime with an emphasis on revealing the criminal. Whodunit mysteries provide viewers the clues to the case, challenging them to engage in detective work alongside the characters and deduce the identity of the perpetrator before the reveal.",
+          "isSubgenre": true
+        }
+      ]
+    },
+    {
+      "category": "Reality TV",
+      "interests": [
+        {
+          "id": "in0000142",
+          "name": "Business Reality TV",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMzJmNTkyOWMtODI5MC00YTRkLWE3NTItMzkwYjY1Y2RlYTc4XkEyXkFqcGc@._V1_.jpg",
+            "width": 1399,
+            "height": 784
+          },
+          "description": "The business reality TV subgenre features the world of business, entrepreneurship, and professional competition. These shows often showcase individuals or teams navigating challenges, making strategic decisions, and working toward achieving business-related goals.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000143",
+          "name": "Crime Reality TV",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYTIzZWJlNDEtODExOS00ZWQ1LWE5YmMtNTRkMzRjODljM2I2XkEyXkFqcGc@._V1_.jpg",
+            "width": 814,
+            "height": 458
+          },
+          "description": "The crime reality TV subgenre features crime-related content, investigations, law enforcement procedures, and the portrayal of criminal activities. These shows often provide viewers with insights into the world of crime, policing, and criminal justice, sometimes blurring the lines between entertainment and reality.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000144",
+          "name": "Dating Reality TV",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNDQ1NTFhYzAtY2FkOS00MDIzLWFmMzYtMzAzYjQyMzg3MTFlXkEyXkFqcGc@._V1_.jpg",
+            "width": 3600,
+            "height": 2400
+          },
+          "description": "The dating reality TV subgenre features dating, romance, and relationships. These shows typically feature a group of participants who are looking for love or companionship and engage in various dating-related activities and challenges.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000145",
+          "name": "Docusoap Reality TV",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BN2E5NzFjMjEtZDcwMS00MTA2LTg1ODYtY2ZjYTIxM2UyYjU1XkEyXkFqcGc@._V1_.jpg",
+            "width": 3840,
+            "height": 2160
+          },
+          "description": "The docusoap reality TV subgenre, derived from combining the words \"documentary\" and \"soap opera\", features elements of documentary-style storytelling and the format of a soap opera. These shows depict the lives and experiences of real people, often in unscripted or semi-scripted situations, with an emphasis on personal drama, emotions, and interpersonal relationships.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000146",
+          "name": "Hidden Camera",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BOTFiNTQ3OGMtYTYzZC00OWQ5LWEzMmYtOGU5NDk1YWIzNWNlXkEyXkFqcGc@._V1_.jpg",
+            "width": 3000,
+            "height": 1688
+          },
+          "description": "The hidden camera reality TV subgenre features genuine reactions of unsuspecting individuals in various staged or contrived situations. The shows use hidden cameras to record people's reactions to humorous, shocking, or surprising scenarios, often resulting in entertaining and candid moments.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000147",
+          "name": "Paranormal Reality TV",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BY2I4MzdjODgtMTJjMi00NDBhLThmZjYtNzMwOTgzZTJmNzQxXkEyXkFqcGc@._V1_.jpg",
+            "width": 1366,
+            "height": 768
+          },
+          "description": "The paranormal reality TV subgenre features people exploring supernatural, unexplained, and paranormal phenomena. These shows often feature investigators, experts, or individuals who seek to document, investigate, and sometimes interact with occurrences that defy conventional scientific explanations.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000148",
+          "name": "Reality TV",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZGE5NzkzZWQtODQyMC00N2Q0LTk0MGEtY2ExM2ZiZDQ2MTdhXkEyXkFqcGc@._V1_.jpg",
+            "width": 2000,
+            "height": 1125
+          },
+          "description": "The reality TV genre, short for \"reality television,\" features real-life situations, events, and interactions, often involving ordinary people rather than actors performing scripted roles. Reality TV shows aim to capture unscripted and authentic moments, providing viewers with a glimpse into various aspects of human life, behavior, and experiences."
+        }
+      ]
+    },
+    {
+      "category": "Romance",
+      "interests": [
+        {
+          "id": "in0000149",
+          "name": "Dark Romance",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTYzNDIyMTE2Ml5BMl5BanBnXkFtZTgwOTQ4MzkzMDI@._V1_.jpg",
+            "width": 2048,
+            "height": 1365
+          },
+          "description": "The dark romance subgenre features themes of love, desire, and relationships within a context that is often intense, mysterious, and sometimes unsettling. Dark romance stories typically delve into darker aspects of human emotions, psychology, and relationships, often incorporating elements of danger and suspense.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000150",
+          "name": "Romantic Epic",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjI3NjcxNTAyM15BMl5BanBnXkFtZTcwMDkwNDUzNw@@._V1_.jpg",
+            "width": 2048,
+            "height": 1378
+          },
+          "description": "The romantic epic subgenre features grand and sweeping love stories set against a backdrop of significant historical, cultural, or societal events. These stories often span long periods of time, and are characterized by their scope, emotional intensity, and exploration of enduring love in the face of challenges.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000151",
+          "name": "Feel-Good Romance",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BM2RmYmUyODktNDNhOC00YTBjLTg3ZDktYjZiOTYzOTI3MTRjXkEyXkFqcGc@._V1_.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "description": "The feel-good romance subgenre features heartwarming and uplifting romantic relationships. These stories are designed to evoke positive emotions and leave audiences with a sense of happiness, satisfaction, and joy. They prioritize light-heartedness, humor, and the development of a positive and affirming romantic connection.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000152",
+          "name": "Romance",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTc0MzYxMTQ1M15BMl5BanBnXkFtZTgwOTk0MTI2NDM@._V1_.jpg",
+            "width": 2048,
+            "height": 1638
+          },
+          "description": "The romance genre features the theme of romantic relationships and emotional connections between characters. These stories focus on the development of love, desire, and intimacy between protagonists, often exploring the challenges, conflicts, and triumphs that arise in their relationships."
+        },
+        {
+          "id": "in0000153",
+          "name": "Romantic Comedy",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BY2I1MTE5OWMtNzY0My00YTg0LWE5ODEtNTg5NDMzNDFkNzNiXkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1024
+          },
+          "description": "The romantic comedy subgenre, also known as \"rom-com\", feature romantic relationships and interactions between characters while incorporating elements of humor and comedic situations. These stories blend the emotional journey of falling in love with lighthearted and funny scenarios, creating an entertaining and feel-good experience for the audience.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000154",
+          "name": "Steamy Romance",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTgyODQ2OTkyOV5BMl5BanBnXkFtZTgwNDM3MjI0NDE@._V1_.jpg",
+            "width": 2048,
+            "height": 1365
+          },
+          "description": "The steamy romance subgenre features sensuality as an integral part of the narrative. The stories include depictions of sexual encounters between the main characters, with a primary focus on the physical aspects of their relationship. Viewers should make informed decisions based on their preferences and comfort levels.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000155",
+          "name": "Teen Romance",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTMxNjAxOTE3MF5BMl5BanBnXkFtZTcwMDAwOTQzNA@@._V1_.jpg",
+            "width": 2048,
+            "height": 1802
+          },
+          "description": "The teen romance subgenre features romantic relationships involving teenagers or young adults. These stories revolve around the romantic experiences, emotions, and challenges faced by young characters as they navigate the complexities of first love and relationships.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000156",
+          "name": "Tragic Romance",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTk1NjcxMjcxMV5BMl5BanBnXkFtZTgwNzM2Njk3NDM@._V1_.jpg",
+            "width": 1800,
+            "height": 1211
+          },
+          "description": "The tragic romance subgenre features a romantic relationship that ends in sorrow, heartbreak, or tragedy. Unlike the typical romance stories with happy endings, tragic romances explore the darker aspects of love, often involving circumstances that prevent the main characters from being together or lead to their separation through death, sacrifice, or other unfortunate events.",
+          "isSubgenre": true
+        }
+      ]
+    },
+    {
+      "category": "Sci-Fi",
+      "interests": [
+        {
+          "id": "in0000157",
+          "name": "Alien Invasion",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNmNjYjRjNWMtYmIyNC00MTVkLWE5MzItZmNkM2E1YzdjOWE5XkEyXkFqcGc@._V1_.jpg",
+            "width": 4297,
+            "height": 2817
+          },
+          "description": "The alien invasion subgenre features extraterrestrial beings invading Earth. These stories typically depict the arrival of advanced alien civilizations to our planet, often with hostile intentions. The subgenre explores themes of humanity's response to a sudden and unprecedented threat, as well as the potential consequences of interacting with beings from other worlds.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000158",
+          "name": "Artificial Intelligence",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTk4MTc1NDczNV5BMl5BanBnXkFtZTgwODAwNTAwNDE@._V1_.jpg",
+            "width": 2048,
+            "height": 857
+          },
+          "description": "The artificial intelligence, or A.I., subgenre features the concept of artificial intelligence and its impact on society, humanity, and the future. These stories often focus on the creation, development, and interactions of intelligent machines and raises questions about the ethical, moral, and existential implications of a future where AI plays a significant role.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000159",
+          "name": "Cyberpunk",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BOTAzMzZiZjAtMzJhMy00ZDNkLWFmZGEtODc5ODcwMTBkYzQyXkEyXkFqcGc@._V1_.jpg",
+            "width": 2000,
+            "height": 1200
+          },
+          "description": "The cyberpunk subgenre features high-tech, dystopian futures, advanced technology, and the intersection of human life with powerful corporations and cybernetics. Cyberpunk stories often take place in gritty urban landscapes where advanced technology contrasts with societal decay, and protagonists navigate a world filled with hacking, cybernetic enhancements, and the blurring of boundaries between humans and machines.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000160",
+          "name": "Dystopian Sci-Fi",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTg4MDEyODA0NF5BMl5BanBnXkFtZTgwMzUxNDE2MzI@._V1_.jpg",
+            "width": 1914,
+            "height": 1039
+          },
+          "description": "The dystopian sci-fi subgenre features worlds characterized by extreme social, political, and environmental challenges and focuses on the negative aspects of humanity's future. In these stories, societies have deteriorated into oppressive, nightmarish, or dysfunctional states.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000161",
+          "name": "Kaiju",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTA3ODI2Nzg0MDNeQTJeQWpwZ15BbWU4MDU2MTgxMzEx._V1_.jpg",
+            "width": 2048,
+            "height": 1363
+          },
+          "description": "The kaiju subgenre, a Japanese term that translates to \"strange beast\", features giant creatures, often of immense size, that wreak havoc in cities or engage in battles with other monstrous beings. The subgenre originated in Japan and was created by Eiji Tsuburaya and Ishirō Honda.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000162",
+          "name": "Sci-Fi",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BOTkxMzc0MDg5MV5BMl5BanBnXkFtZTcwNjUxMzA4NA@@._V1_.jpg",
+            "width": 1536,
+            "height": 1035
+          },
+          "description": "The sci-fi genre, short for science fiction, features imaginative and futuristic concepts that are often rooted in scientific principles, technology, and possibilities. These stories delve into \"what if\" questions and can serve as a platform to address contemporary social, political, and ethical issues by projecting them onto future or alternate settings."
+        },
+        {
+          "id": "in0000163",
+          "name": "Sci-Fi Epic",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BODhjMDQ5MWMtMTFkMi00MjMyLTkyM2ItOTZmNzJkZjMyODg3XkEyXkFqcGc@._V1_.jpg",
+            "width": 2865,
+            "height": 1200
+          },
+          "description": "The sci-fi epic subgenre features grand narratives set in expansive and imaginative worlds. Sci-fi epics often span vast time periods, multiple locations, and involve intricate plots that explore complex themes, societal changes, technology, and the evolution of civilizations.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000164",
+          "name": "Space Sci-Fi",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BOTY2NjMzNDk3NV5BMl5BanBnXkFtZTgwODI5Nzg0OTE@._V1_.jpg",
+            "width": 900,
+            "height": 600
+          },
+          "description": "The space sci-fi subgenre features stories set primarily in outer space or involving space travel, exploration, and interstellar adventures. Space sci-fi often emphasizes the wonders and challenges of space travel, as well as the exploration of unknown frontiers, advanced technology, and encounters with extraterrestrial life.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000165",
+          "name": "Steampunk",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTcyNTIxNzEwM15BMl5BanBnXkFtZTgwODY1MTEwMzE@._V1_.jpg",
+            "width": 1000,
+            "height": 679
+          },
+          "description": "The steampunk subgenre features a combination of Victorian-era technology with imaginative and often anachronistic twists. It envisions an alternate history or future where steam power, clockwork mechanisms, and other technologies from the 19th century have evolved in unusual and fantastical ways.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000166",
+          "name": "Time Travel",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BY2YzZjcwNjktMTIyNi00Nzg0LWEyMDctOTdiZDZmOTEzOTQ2XkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1040
+          },
+          "description": "The time travel subgenre features traveling backward or forward in time, often resulting in characters encountering alternate timelines, paradoxes, and the potential to alter history. These stories delve into the complexities of causality, the nature of reality, and the philosophical implications of manipulating time.",
+          "isSubgenre": true
+        }
+      ]
+    },
+    {
+      "category": "Seasonal",
+      "interests": [
+        {
+          "id": "in0000192",
+          "name": "Holiday",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZTY4YjY3MjctZjczZS00ZjAzLWE3NmMtNjY4YjQyYmEyOGRjXkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 1081
+          },
+          "description": "The holiday genre features winter holidays, such as Christmas, Thanksgiving, Hanukkah, New Year's Eve, or other cultural and religious celebrations. These stories often capture the spirit, traditions, and emotions associated with these special times, making them ideal for seasonal viewing. The holiday genre can further branch into subgenres like holiday comedy, holiday romance, and holiday family."
+        },
+        {
+          "id": "in0000193",
+          "name": "Holiday Animation",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMzg3YjA4MzQtM2ZlNS00ZjMyLTg0OWItNmFmMWIwZTE3ZTljXkEyXkFqcGc@._V1_.jpg",
+            "width": 838,
+            "height": 640
+          },
+          "description": "The holiday animation subgenre features animated stories that focus on winter holiday themes, traditions, and celebrations. These stories use animation techniques including hand-drawn animation, computer animation, and stop motion animation to bring festive stories to life, often targeting audiences of all ages.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000194",
+          "name": "Holiday Comedy",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMDg2NDRkMjktYWVjMS00MTJjLTgxMTctNzM2ZWE2ODY2NmY0XkEyXkFqcGc@._V1_.jpg",
+            "width": 1200,
+            "height": 676
+          },
+          "description": "The holiday comedy subgenre combines elements of humor with the festive spirit of the holiday season. These movies are typically light-hearted, often featuring comedic situations, humorously exaggerated characters, and amusing plots set against the backdrop of a holiday celebration, such as Christmas, Thanksgiving, Hanukkah, New Year's Eve, or other cultural and religious celebrations.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000195",
+          "name": "Holiday Family",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZWRkODYyNmQtMTZmNi00NjFmLThlM2EtNjhjYmVkMzY2ZTljXkEyXkFqcGc@._V1_.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "description": "The holiday family subgenre features themes related to the holidays, with a focus on family dynamics, cultural traditions, and the magic of the holiday season. These films are often heartwarming, light-hearted, and family-friendly as they capture the spirit of various winter holidays, such as Christmas, Thanksgiving, Hanukkah, New Year's Eve, or other cultural and religious celebrations.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000196",
+          "name": "Holiday Romance",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNTM5YjZkMzYtNGE0MC00MTk4LTlkMmEtMDcyMzA1MWUxMzVmXkEyXkFqcGc@._V1_.jpg",
+            "width": 4096,
+            "height": 2731
+          },
+          "description": "The holiday romance subgenre combines elements of romantic storytelling with the festive atmosphere of the holidays. These movies often center around characters who experience love and romance during winter holiday seasons, such as Christmas, Thanksgiving, Hanukkah, New Year's Eve, or other cultural and religious celebrations. The plots typically involve themes of love, relationships, and the magic of the holiday season.",
+          "isSubgenre": true
+        }
+      ]
+    },
+    {
+      "category": "Short",
+      "interests": [
+        {
+          "id": "in0000212",
+          "name": "Short",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNGFlMTVhZTQtNWU5Ny00YTRlLThjODYtNWMwYjRjYzA1Y2RlXkEyXkFqcGc@._V1_.jpg",
+            "width": 1437,
+            "height": 1080
+          },
+          "description": "The short form refers to creative works characterized by their brevity and concise storytelling. Unlike full-length feature films, short films have a running time of less than 45 minutes, while TV shorts have a running time of less than 22 minutes."
+        }
+      ]
+    },
+    {
+      "category": "Sport",
+      "interests": [
+        {
+          "id": "in0000167",
+          "name": "Baseball",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTc5MDAwMzI0OF5BMl5BanBnXkFtZTcwMzgyMTU4OA@@._V1_.jpg",
+            "width": 2048,
+            "height": 1363
+          },
+          "description": "The baseball subgenre features the sport of baseball, the players' experiences, the challenges they face, and the impact of baseball on their lives. Baseball stories capture the excitement of the sport, the camaraderie among teammates, and the personal journeys of players, coaches, and fans.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000168",
+          "name": "Basketball",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNDFiZGRiNDYtNzJlYS00NTMzLTk4MWUtNjU3MGM2ZWRjNTJmXkEyXkFqcGc@._V1_.jpg",
+            "width": 1200,
+            "height": 759
+          },
+          "description": "The basketball subgenre features the sport of basketball, the lives of players, coaches, and the impact of basketball on their personal journeys. Basketball stories capture the excitement of the sport, the challenges faced by athletes, and the camaraderie among teammates.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000169",
+          "name": "Boxing",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTUzNDIxOTc0MV5BMl5BanBnXkFtZTcwNTQ3NTMyNA@@._V1_.jpg",
+            "width": 1023,
+            "height": 683
+          },
+          "description": "The boxing subgenre features the sport of boxing and the physical and emotional challenges faced by boxers, their personal journeys, and the impact of the sport on their lives. Boxing stories often highlight the determination, grit, and resilience required to excel in the ring.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000170",
+          "name": "Extreme Sport",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNGMxNzZmNDYtODE1Yi00MzhlLTk5YmYtNTRlMTIyYjFlMmI4XkEyXkFqcGc@._V1_.jpg",
+            "width": 2550,
+            "height": 1373
+          },
+          "description": "The extreme sport subgenre features high-intensity and adrenaline-pumping sports and activities that often involve a high degree of risk, physical skill, and daring feats. These stories capture the excitement, challenges, and thrill-seeking nature of extreme sports and outdoor adventures.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000171",
+          "name": "Football",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTk0ODgzNDc4MV5BMl5BanBnXkFtZTgwNzc5OTIwMjE@._V1_.jpg",
+            "width": 4775,
+            "height": 3075
+          },
+          "description": "The football subgenre focuses on the sport of American football, the lives of players, coaches, and the impact of football on their personal journeys. Football stories capture the excitement of the sport, the camaraderie among teammates, and the challenges and triumphs faced by athletes.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000172",
+          "name": "Motorsport",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZDJlNDg2MzQtMTY5Mi00NTM3LWJhOTEtZTEzZWU4OTk0NDVjXkEyXkFqcGc@._V1_.jpg",
+            "width": 6000,
+            "height": 4000
+          },
+          "description": "The motorsport subgenre features the world of motorsports, particularly various forms of racing involving motor vehicles such as cars, motorcycles, and other racing machines. These stories capture the excitement, speed, and competition of motor racing events, as well as the personal journeys of racers, the challenges they face, and the camaraderie among teams.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000173",
+          "name": "Soccer",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BOGZlM2EzMjQtZWJmZS00MTJmLWJmZGMtYjVlNTdhMTk3ZWViXkEyXkFqcGc@._V1_.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "description": "The soccer subgenre features the sport of soccer, known as football in many parts of the world. These stories center on the game itself, the lives of players, coaches, and the impact of soccer on their personal journeys. The soccer subgenre captures the passion of the sport, the camaraderie among teammates, and the challenges and triumphs faced by athletes.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000174",
+          "name": "Sport",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjAwNDMyNzEwMF5BMl5BanBnXkFtZTcwNDA4MjkwNg@@._V1_.jpg",
+            "width": 2048,
+            "height": 1337
+          },
+          "description": "The sport genre features the world of sports, capturing the excitement, competition, and personal journeys of athletes, coaches, and teams. The stories cover a wide range of sports and activities, each with its own unique characteristics and themes."
+        },
+        {
+          "id": "in0000175",
+          "name": "Water Sport",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNzYwOTliNjYtZGU2ZC00NGFlLThlZDctZTJlOWQ0ZmY5NTM2XkEyXkFqcGc@._V1_.jpg",
+            "width": 4773,
+            "height": 3075
+          },
+          "description": "The water sport subgenre features sports and activities that take place in or on bodies of water. These stories capture the excitement, challenges, and adventurous spirit of water-based sports and activities, ranging from surfing and swimming to diving and sailing.",
+          "isSubgenre": true
+        }
+      ]
+    },
+    {
+      "category": "Thriller",
+      "interests": [
+        {
+          "id": "in0000176",
+          "name": "Conspiracy Thriller",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMmIxMmY2NTYtMWRmNi00MTNmLWI2MWYtMzUyYTM2OTcyYmFjXkEyXkFqcGc@._V1_.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "description": "The conspiracy thriller subgenre features complex plots involving secret schemes, hidden agendas, and intricate conspiracies. These stories combine elements of suspense, mystery, and intrigue to create narratives where characters uncover and attempt to expose hidden truths or sinister plots that are often orchestrated by powerful organizations or individuals.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000177",
+          "name": "Cyber Thriller",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNjQ3MjM5MmUtMjcwZS00Yjk4LWI2N2YtY2Q2ZDAwNzk0MGY5XkEyXkFqcGc@._V1_.jpg",
+            "width": 1200,
+            "height": 668
+          },
+          "description": "The cyber thriller subgenre features elements of suspense, technology, and intrigue to create narratives that highlight the vulnerabilities and ethical dilemmas of the digital age. These stories often center around high-stakes conflicts involving cybercrime, hacking attacks, digital warfare, and the potential consequences of a hyper-connected world.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000178",
+          "name": "Erotic Thriller",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTRkZDQwZjEtMmY2Ny00Zjg1LWJkY2MtOGQ4YWY4NjJiZjhjXkEyXkFqcGc@._V1_.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "description": "The erotic thriller subgenre features elements of sexual desire, romantic relationships, and sexual intrigue while incorporating elements of danger, or crime to create tension and suspense. The erotic thriller genre typically features adult themes and explicit sexual scenes. Viewers should make informed decisions based on their preferences and comfort levels.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000179",
+          "name": "Giallo",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNTlmYWY1NDAtNTBhOS00NDBkLTg5ZDMtZGUxMGZkYTVkMDU2XkEyXkFqcGc@._V1_.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "description": "The giallo subgenre, originating in Italy in the late 1960s, features a distinct blend of mystery, horror, and psychological thriller elements. The term \"giallo\" translates to \"yellow\" in Italian and originally referred to a series of pulp mystery novels with yellow covers.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000180",
+          "name": "Legal Thriller",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjE0NTU4NzUxM15BMl5BanBnXkFtZTcwOTQ5NTQzMw@@._V1_.jpg",
+            "width": 2048,
+            "height": 872
+          },
+          "description": "The legal thriller subgenre features a blend of mystery and suspense with legal procedure, creating narratives that emphasize thrills, with legal settings and cases serving as a backdrop. These stories often center on lawyers, prosecutors, or legal professionals as they uncover hidden evidence, confront unexpected twists, and face threats or danger around every corner.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000181",
+          "name": "Political Thriller",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMzhlMjE1ZWItNTQ0OC00MGU0LWIyOTctMjJjZmIyY2M2NjBiXkEyXkFqcGc@._V1_.jpg",
+            "width": 1536,
+            "height": 1058
+          },
+          "description": "The political thriller subgenre features political intrigue, power struggles, and the complex relationships between governments, individuals, and institutions. These stories often involve espionage, conspiracies, and high-stakes conflicts that highlight the inner workings of political systems and the impact of decisions on society and individuals.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000182",
+          "name": "Psychological Thriller",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BN2I4MDk2ODQtZjU3YS00Zjk5LThlNDMtYjljNjY4NzdjODBkXkEyXkFqcGc@._V1_.jpg",
+            "width": 2160,
+            "height": 919
+          },
+          "description": "The psychological thriller subgenre features the psychological and emotional states of characters, as well as the tension and suspense created through their mental and emotional experiences. These stories often involve intricate plots, complex characters, and situations that challenge the perceptions and sanity of the protagonists.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000183",
+          "name": "Serial Killer",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjI3MTU0ODQ2MF5BMl5BanBnXkFtZTcwNTQzNTIwNA@@._V1_.jpg",
+            "width": 2048,
+            "height": 1392
+          },
+          "description": "The serial killer subgenre features stories involving serial killers - individuals who commit a series of murders over a period of time, often with a distinct modus operandi or pattern. These stories delve into the psychology of both the killer and the individuals or law enforcement officials attempting to apprehend them.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000184",
+          "name": "Spy",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNDk5Njk4ODM5Nl5BMl5BanBnXkFtZTcwMjEzNzc3Nw@@._V1_.jpg",
+            "width": 2048,
+            "height": 1365
+          },
+          "description": "The spy subgenre features espionage, covert operations, and intelligence activities. Characters often engage in high-stakes missions, infiltration, and intricate plots that involve espionage tactics, gadgets, and secret identities.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000185",
+          "name": "Survival",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYTY2Nzk5MWMtMmNlOC00MDA2LWJmZGYtNmQxNGIyZGIyMjQ1XkEyXkFqcGc@._V1_.jpg",
+            "width": 4100,
+            "height": 2735
+          },
+          "description": "The survival subgenre features narratives in which characters are placed in extreme and challenging situations where their primary goal is to survive against all odds. These situations can range from being stranded in the wilderness to facing natural disasters, natural accidents, or other life-threatening circumstances caused by their environment. Survival stories emphasize the characters' resourcefulness, resilience, and ability to adapt to their surroundings.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000186",
+          "name": "Thriller",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMWM3ZjRhMDQtZDUzYi00NWY0LThhMDQtZTM2MjZmNjRlMTRmXkEyXkFqcGc@._V1_.jpg",
+            "width": 1920,
+            "height": 804
+          },
+          "description": "The thriller genre features suspense, tension, and excitement. These stories are known for keeping audiences on the edge of their seats and delivering intense emotional experiences by revolving around high-stakes situations, dangerous conflicts, and the constant anticipation of unexpected events."
+        }
+      ]
+    },
+    {
+      "category": "Western",
+      "interests": [
+        {
+          "id": "in0000187",
+          "name": "Classical Western",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNGVkNjQ3NmMtM2U4YS00OTQ2LTg2YzktOTM1ZGM0OTYwYTY3XkEyXkFqcGc@._V1_.jpg",
+            "width": 1777,
+            "height": 1521
+          },
+          "description": "The classical Western subgenre features a portrayal of the American Old West in a romanticized and often idealized manner. These stories typically feature iconic elements of the Wild West, including cowboys, gunfights, rugged landscapes, and themes of honor, justice, and individualism. These films were produced from the early days of cinema up until the late 1960s.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000188",
+          "name": "Contemporary Western",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTk0MTYwNDI4MF5BMl5BanBnXkFtZTgwNjM0Njc3OTE@._V1_.jpg",
+            "width": 5760,
+            "height": 3840
+          },
+          "description": "The contemporary Western subgenre features traditional elements of the classic Western genre in a modern or contemporary setting. These stories often update the Western themes and motifs to address contemporary issues, while still incorporating the iconic elements that define the Western genre, such as landscapes, characters, and themes of morality and justice.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000189",
+          "name": "Western Epic",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMjgyODk4MTIwOF5BMl5BanBnXkFtZTcwODA4MTc4Mw@@._V1_.jpg",
+            "width": 2048,
+            "height": 1499
+          },
+          "description": "The Western epic subgenre features grand storytelling, large-scale production, expansive landscapes, and often intricate narratives that span significant time periods. These stories capture the epic nature of historical events, characters, and themes associated with the American frontier.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000190",
+          "name": "Spaghetti Western",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMzE4ODY3MjAtZjM0OS00YzIxLWEyZTUtNTk2MTBiMGIwMTRlXkEyXkFqcGc@._V1_.jpg",
+            "width": 5079,
+            "height": 4035
+          },
+          "description": "The spaghetti Western subgenre, primarily produced by Italian filmmakers and filmed in Europe in the mid-20th century, features a distinctive style and unique approach to the traditional Western genre. They are often characterized by their gritty and stylized visuals, unconventional storytelling, and use of Italian filmmakers, actors, and locations.",
+          "isSubgenre": true
+        },
+        {
+          "id": "in0000191",
+          "name": "Western",
+          "primaryImage": {
+            "url": "https://m.media-amazon.com/images/M/MV5BODUxNTQ4MmMtNTIyZC00MzRlLTlhZTItMzc0NDdmMmVhMjc4XkEyXkFqcGc@._V1_.jpg",
+            "width": 2048,
+            "height": 1536
+          },
+          "description": "The Western genre features stories set primarily in the 19th-century American Old West and often depict the rugged frontier life, exploring themes of individualism, justice, morality, and the clash between civilization and the untamed wilderness. The genre has its roots in the historical context of westward expansion and the challenges faced by pioneers, settlers, outlaws, and lawmen."
+        }
+      ]
+    }
+  ]
+}
