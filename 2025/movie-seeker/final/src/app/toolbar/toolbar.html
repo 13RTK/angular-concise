@@ -1,0 +1,20 @@
+<mat-toolbar>
+  <span (click)="handleChangePage('interests')">Movie Seeker</span>
+  <span class="example-spacer"></span>
+  <button
+    matIconButton
+    class="example-icon"
+    aria-label="Example icon-button with search icon"
+    (click)="handleChangePage('search')"
+  >
+    <mat-icon>search</mat-icon>
+  </button>
+  <button
+    matIconButton
+    class="example-icon favorite-icon"
+    aria-label="Example icon-button with heart icon"
+    (click)="handleChangePage('favorite')"
+  >
+    <mat-icon>favorite</mat-icon>
+  </button>
+</mat-toolbar>

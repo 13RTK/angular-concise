@@ -1,0 +1,18 @@
+<toolbar (onChangePage)="handleChangePage($event)" />
+<mat-divider></mat-divider>
+
+@if (currentPage() === 'interests') {
+  <interests-list />
+}
+
+@if (currentPage() === 'search') {
+  <app-search />
+}
+
+@if (currentPage() === 'favorite') {
+  <favorite-list />
+}
+<!-- @else {
+  <h1>Page not found</h1>
+  <button (click)="handleChangePage('404')">Back Home</button>
+} -->

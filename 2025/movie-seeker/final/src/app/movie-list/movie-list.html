@@ -1,0 +1,11 @@
+<mat-grid-list cols="1" rowHeight="2:1">
+  @if (isLoading()) {
+    <spinner />
+  } @else {
+    @for (movie of movieList(); track movie.id) {
+      <movie-card [movie]="movie" />
+    } @empty {
+      <h1>No movie found</h1>
+    }
+  }
+</mat-grid-list>
