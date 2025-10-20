@@ -32,7 +32,7 @@ export class Search {
     this.resultMovie.set(null);
 
     this.http
-      .get<MovieSearchResult>(`http://www.omdbapi.com/?apikey=cdedf2de&t=${this.searchTitle()}`)
+      .get<MovieSearchResult>(`https://www.omdbapi.com/?apikey=cdedf2de&t=${this.searchTitle()}`)
       .subscribe((result) => {
         this.resultMovie.set({
           id: result.imdbID,
