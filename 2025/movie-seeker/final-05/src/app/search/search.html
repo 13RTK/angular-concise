@@ -1,0 +1,12 @@
+<form (submit)="handleSearchMovie()">
+  <mat-form-field class="example-full-width">
+    <mat-label>Movie Title</mat-label>
+    <input matInput [(ngModel)]="searchTitle" name="searchTitle" [disabled]="isLoading()" />
+  </mat-form-field>
+
+  <button matButton="filled" [disabled]="isLoading()">Search</button>
+</form>
+
+@if (resultMovie()) {
+  <movie-card [movie]="resultMovie()!" />
+}
