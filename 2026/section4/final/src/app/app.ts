@@ -1,59 +1,48 @@
 import { Component, signal } from '@angular/core';
+import { form, FormField, required } from '@angular/forms/signals';
+
+interface LoginData {
+  username: string;
+  password: string;
+}
 
 @Component({
   selector: 'app-root',
   template: `
     <h1>Hello From Angular</h1>
     <form (submit)="handleSubmit($event)">
-      <input
-        type="text"
-        [value]="username()"
-        name="username"
-        (input)="username.set($event.target.value.trim())"
-      />
+      <input type="text" [formField]="loginForm.username" />
       <br />
       <br />
-      <input
-        type="password"
-        [value]="password()"
-        name="password"
-        (input)="password.set($event.target.value.trim())"
-      />
+      <input type="password" [formField]="loginForm.password" />
       <br />
       <br />
 
-      <button [disabled]="username() === '' || password() === ''" type="submit">Submit</button>
+      <button [disabled]="loginForm().invalid()" type="submit">Submit</button>
     </form>
   `,
   styleUrl: './app.css',
+  imports: [FormField],
 })
 export class App {
-  username = signal('');
-  password = signal('');
+  loginModel = signal<LoginData>({
+    username: '',
+    password: '',
+  });
+
+  loginForm = form(this.loginModel, (schemaPath) => {
+    required(schemaPath.username);
+    required(schemaPath.password);
+  });
 
   handleSubmit(event: Event) {
     event.preventDefault();
 
-    // Signal version
-    alert(`Username: ${this.username()}\nPassword: ${this.password()}`);
-    this.username.set('');
-    this.password.set('');
+    alert(JSON.stringify(this.loginForm().value()));
+    this.loginForm().value.set({
+      username: '',
+      password: '',
+    });
     return;
-
-    // Native formData version
-    // const formElement = event.target as HTMLFormElement;
-    // const formData = new FormData(formElement);
-
-    // const username = formData.get('username')?.toString().trim();
-    // const password = formData.get('password')?.toString().trim();
-
-    // if (!username || !password) {
-    //   alert('Please enter both username and password.');
-    //   return;
-    // }
-
-    // alert(`Username: ${username}\nPassword: ${password}`);
-    // formElement.reset();
-    // return;
   }
 }
