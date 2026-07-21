@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { form, FormField, required } from '@angular/forms/signals';
+import { form, FormField, minLength, required } from '@angular/forms/signals';
 
 interface LoginData {
   username: string;
@@ -12,9 +12,34 @@ interface LoginData {
     <h1>Hello From Angular</h1>
     <form (submit)="handleSubmit($event)">
       <input type="text" [formField]="loginForm.username" />
+
+      @if (loginForm.username().invalid()) {
+        <p>
+          {{
+            loginForm
+              .username()
+              .errors()
+              .map((error) => error.message)
+              .join(' ')
+          }}
+        </p>
+      }
       <br />
       <br />
+
       <input type="password" [formField]="loginForm.password" />
+      @if (loginForm.password().invalid()) {
+        <p>
+          {{
+            loginForm
+              .password()
+              .errors()
+              .map((error) => error.message)
+              .join(' ')
+          }}
+        </p>
+      }
+
       <br />
       <br />
 
@@ -31,8 +56,14 @@ export class App {
   });
 
   loginForm = form(this.loginModel, (schemaPath) => {
-    required(schemaPath.username);
-    required(schemaPath.password);
+    required(schemaPath.username, { message: 'Username is required' });
+    required(schemaPath.password, { message: 'Password is required' });
+    minLength(schemaPath.username, 2, {
+      message: 'Username must be at least 2 characters',
+    });
+    minLength(schemaPath.password, 6, {
+      message: 'Password must be at least 6 characters',
+    });
   });
 
   handleSubmit(event: Event) {
