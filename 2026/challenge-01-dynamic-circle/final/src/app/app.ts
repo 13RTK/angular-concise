@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
+import { form, FormField, max, min } from '@angular/forms/signals';
 
 /*
  * Goal:
@@ -20,32 +21,36 @@ import { Component } from '@angular/core';
  * @author HDAlex_John
  */
 
+interface CircleData {
+  circleColor: string;
+  circleText: string;
+  circleSize: number;
+  circleRotate: number;
+}
+
+const circleDataInitialValue: CircleData = {
+  circleColor: '#45d619',
+  circleText: 'Hi!',
+  circleSize: 150,
+  circleRotate: 0,
+};
+
 @Component({
   selector: 'app-root',
-  template: ` <main>
-    <button>Reset</button>
-
-    <label>
-      Background color
-      <input type="color" value="#45d619" />
-    </label>
-
-    <label>
-      Circle Text
-      <input type="text" value="Hi!" />
-    </label>
-
-    <label>
-      Circle Size
-      <input type="number" />
-    </label>
-
-    <label>
-      Circle Rotate
-      <input type="number" />
-    </label>
-    <div class="circle">Hi!</div>
-  </main>`,
+  templateUrl: './app.html',
   styleUrl: './app.css',
+  imports: [FormField],
 })
-export class App {}
+export class App {
+  circleModel = signal<CircleData>(circleDataInitialValue);
+
+  circleForm = form(this.circleModel, (schemaPath) => {
+    min(schemaPath.circleSize, 0);
+    min(schemaPath.circleRotate, 0);
+    max(schemaPath.circleRotate, 360);
+  });
+
+  handleReset() {
+    this.circleForm().value.set(circleDataInitialValue);
+  }
+}
