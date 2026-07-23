@@ -20,15 +20,7 @@
     Circle Rotate {{ circleForm.circleRotate().value() }}
     <input type="range" [formField]="circleForm.circleRotate" />
   </label>
-  <div
-    class="circle"
-    [style]="{
-      width: `${circleForm.circleSize().value()}px`,
-      height: `${circleForm.circleSize().value()}px`,
-      backgroundColor: `${circleForm.circleColor().value()}`,
-      transform: `rotate(${circleForm.circleRotate().value()}deg)`,
-    }"
-  >
+  <div class="circle" [style]="circleStyle()">
     {{ circleForm.circleText().value() }}
   </div>
 </main>

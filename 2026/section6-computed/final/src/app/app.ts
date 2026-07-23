@@ -1,5 +1,5 @@
-import { Component, signal } from '@angular/core';
-import { form, FormField, max, min } from '@angular/forms/signals';
+import { Component, computed, signal } from '@angular/core';
+import { form, max, min, FormField } from '@angular/forms/signals';
 
 /*
  * Goal:
@@ -48,6 +48,15 @@ export class App {
     min(schemaPath.circleSize, 0);
     min(schemaPath.circleRotate, 0);
     max(schemaPath.circleRotate, 360);
+  });
+
+  circleStyle = computed(() => {
+    return {
+      width: `${this.circleForm.circleSize().value()}px`,
+      height: `${this.circleForm.circleSize().value()}px`,
+      backgroundColor: `${this.circleForm.circleColor().value()}`,
+      transform: `rotate(${this.circleForm.circleRotate().value()}deg)`,
+    };
   });
 
   handleReset() {
