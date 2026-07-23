@@ -1,25 +1,14 @@
 <h1>Idol Loop</h1>
 
 <ul>
-  <li>
-    <a>Red Velvet</a>
-    <img
-      src="https://static.wikia.nocookie.net/kpop/images/a/aa/Red_Velvet_Cosmic_group_concept_photo_9.webp/revision/latest?cb=20240622162212"
-      alt="Red Velvet"
-    />
-    <p class="profile">
-      Red Velvet is a 5 member girl group formed by SM Entertainment. They made their debut on
-      August 1, 2014 with 4 members (Irene, Seulgi, Wendy and Joy) and the song Happiness. Their
-      second song was Be Natural, a remake of an S.E.S song, featuring Taeyong, then a trainee and
-      now member of NCT. In March 2015 they added another member, Yeri, and they released their
-      first EP titled Ice Cream Cake. They released MVs for Ice Cream Cake and Automatic. In
-      September 2015 Red Velvet released their first full album titled The Red, with Dumb Dumb as
-      their title track, and in March 2016 their second EP titled The Velvet, with song One Of These
-      Nights as the title track. Three more EPs followed: Russian Roulette in September 2016, Rookie
-      in February 2017 and The Red Summer in July 2017 (with Red Flavor as the title track). In
-      November 2017 they released Peek-A-Boo from the EP Perfect Velvet. In July 2020, Red Velvet –
-      IRENE & SEULGI, the first sub-unit of Red Velvet will release their 1st mini album titled
-      Monster.
-    </p>
-  </li>
+  @for (idol of idols(); track $index) {
+    <li>
+      <a>{{ idol.name }}</a>
+      <img [src]="idol.image" [alt]="idol.name" />
+
+      <p class="profile">
+        {{ idol.profile }}
+      </p>
+    </li>
+  }
 </ul>
