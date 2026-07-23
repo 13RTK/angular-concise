@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+li {
+  list-style: none;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: brown;
+  width: 70%;
+  margin-bottom: 3px;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: sans-serif;
+}
+
+a {
+  color: pink;
+  font-size: 80px;
+  display: block;
+}
+
+img {
+  width: 600px;
+}
+
+.profile {
+  font-size: 30px;
+}
