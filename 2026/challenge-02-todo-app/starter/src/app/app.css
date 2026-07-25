@@ -1,0 +1,47 @@
+:host {
+  display: block;
+  max-width: 480px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: system-ui, sans-serif;
+}
+
+.todo-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 0.4rem 0.6rem;
+}
+
+.todo-item {
+  display: block;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list span.done {
+  text-decoration: line-through;
+}
+
+.empty {
+  color: #999;
+}
+
+.summary {
+  color: #666;
+  font-size: 0.875rem;
+}
+
+button.action {
+  margin-right: 2px;
+
+  &.delete {
+    color: red;
+  }
+}
