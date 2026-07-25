@@ -2,25 +2,29 @@
   <h1>Todo Challenge</h1>
 
   <div class="todo-form">
-    <input class="todo-input" placeholder="Add a todo" />
-    <button type="button">Add</button>
+    <input
+      class="todo-input"
+      placeholder="Add a todo"
+      (input)="todoInput.set($event.target.value)"
+      [value]="todoInput()"
+    />
+    <button type="button" (click)="handleAddTodo()">Add</button>
   </div>
 
   <ul class="todo-list">
-    <li>
-      <span> Todo Demo </span>
+    @for (todo of competedTodos(); track todo.id) {
+      <li>
+        <span [class]="todo.isCompleted ? 'done' : ''"> {{ todo.content }} </span>
 
-      <button class="action">Done</button>
-      <button class="action delete">Remove</button>
-    </li>
-    <li>
-      <span class="done"> Todo Demo </span>
-
-      <button class="action">Undo</button>
-      <button class="action delete">Remove</button>
-    </li>
-    <li class="empty">No todos</li>
+        <button class="action" (click)="handleToggleTodo(todo.id)">
+          {{ todo.isCompleted ? 'Undo' : 'Done' }}
+        </button>
+        <button class="action delete" (click)="handleRemoveTodo(todo.id)">Remove</button>
+      </li>
+    } @empty {
+      <li class="empty">No todos</li>
+    }
   </ul>
 
-  <p class="summary">X Todos</p>
+  <p class="summary">{{ todos().length }} Todos</p>
 </main>
