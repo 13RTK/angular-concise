@@ -5,7 +5,10 @@
     Background color
     <input type="color" [formField]="circleForm.circleColor" />
   </label> -->
-  <circle-color></circle-color>
+  <circle-color
+    (changed)="handleChangeColor($event)"
+    [color]="circleForm.circleColor().value()"
+  ></circle-color>
 
   <label>
     Circle Text

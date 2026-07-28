@@ -1,4 +1,4 @@
 <label>
   Background color
-  <input type="color" />
+  <input type="color" (input)="handleInput($event.target.value)" [value]="color()" />
 </label>
