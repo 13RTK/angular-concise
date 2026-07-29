@@ -1,16 +1,11 @@
-import { Component, input, output } from '@angular/core';
+import { Component, model } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'circle-color',
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './circle-color.html',
 })
 export class CircleColor {
-  color = input<string>();
-
-  changed = output<string>();
-
-  handleInput(colorValue: string) {
-    this.changed.emit(colorValue);
-  }
+  color = model<string>();
 }

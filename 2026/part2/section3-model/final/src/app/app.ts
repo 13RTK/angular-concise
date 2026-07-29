@@ -34,8 +34,4 @@ export class App {
   handleReset() {
     this.circleForm().value.set(circleDataInitialValue);
   }
-
-  handleChangeColor(newColorValue: string) {
-    this.circleForm.circleColor().value.set(newColorValue);
-  }
 }

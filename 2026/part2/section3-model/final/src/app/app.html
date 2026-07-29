@@ -1,14 +1,7 @@
 <main>
   <button (click)="handleReset()">Reset</button>
 
-  <!-- <label>
-    Background color
-    <input type="color" [formField]="circleForm.circleColor" />
-  </label> -->
-  <circle-color
-    (changed)="handleChangeColor($event)"
-    [color]="circleForm.circleColor().value()"
-  ></circle-color>
+  <circle-color [(color)]="circleForm.circleColor().value"></circle-color>
 
   <label>
     Circle Text
