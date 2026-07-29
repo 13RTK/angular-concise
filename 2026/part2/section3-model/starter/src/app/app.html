@@ -1,0 +1,38 @@
+<main>
+  <button (click)="handleReset()">Reset</button>
+
+  <!-- <label>
+    Background color
+    <input type="color" [formField]="circleForm.circleColor" />
+  </label> -->
+  <circle-color
+    (changed)="handleChangeColor($event)"
+    [color]="circleForm.circleColor().value()"
+  ></circle-color>
+
+  <label>
+    Circle Text
+    <input type="text" [formField]="circleForm.circleText" />
+  </label>
+
+  <label>
+    Circle Size
+    <input type="number" [formField]="circleForm.circleSize" />
+  </label>
+
+  <label>
+    Circle Rotate {{ circleForm.circleRotate().value() }}
+    <input type="range" [formField]="circleForm.circleRotate" />
+  </label>
+  <div
+    class="circle"
+    [style]="{
+      width: `${circleForm.circleSize().value()}px`,
+      height: `${circleForm.circleSize().value()}px`,
+      backgroundColor: `${circleForm.circleColor().value()}`,
+      transform: `rotate(${circleForm.circleRotate().value()}deg)`,
+    }"
+  >
+    {{ circleForm.circleText().value() }}
+  </div>
+</main>
