@@ -1,0 +1,23 @@
+<main>
+  <button (click)="handleReset()">Reset</button>
+
+  <circle-color [(color)]="circleForm.circleColor().value"></circle-color>
+
+  <circle-text [(text)]="circleForm.circleText().value"></circle-text>
+
+  <circle-size [(size)]="circleForm.circleSize().value"></circle-size>
+
+  <circle-rotate [(rotate)]="circleForm.circleRotate().value"></circle-rotate>
+
+  <div
+    class="circle"
+    [style]="{
+      width: `${circleForm.circleSize().value()}px`,
+      height: `${circleForm.circleSize().value()}px`,
+      backgroundColor: `${circleForm.circleColor().value()}`,
+      transform: `rotate(${circleForm.circleRotate().value()}deg)`,
+    }"
+  >
+    {{ circleForm.circleText().value() }}
+  </div>
+</main>
