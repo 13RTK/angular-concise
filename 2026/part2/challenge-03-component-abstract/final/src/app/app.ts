@@ -1,9 +1,6 @@
 import { Component, signal } from '@angular/core';
-import { form, FormField, max, min } from '@angular/forms/signals';
-import { CircleColor } from './circle-color/circle-color';
-import { CircleText } from './circle-text/circle-text';
-import { CircleSize } from './circle-size/circle-size';
-import { CircleRotate } from './circle-rotate/circle-rotate';
+import { form, max, min } from '@angular/forms/signals';
+import { CircleProperty } from './circle-property/circle-property';
 
 interface CircleData {
   circleColor: string;
@@ -23,7 +20,7 @@ const circleDataInitialValue: CircleData = {
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.css',
-  imports: [CircleColor, CircleText, CircleSize, CircleRotate],
+  imports: [CircleProperty],
 })
 export class App {
   circleModel = signal<CircleData>(circleDataInitialValue);

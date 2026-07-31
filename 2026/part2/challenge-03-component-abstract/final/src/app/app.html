@@ -1,13 +1,26 @@
 <main>
   <button (click)="handleReset()">Reset</button>
 
-  <circle-color [(color)]="circleForm.circleColor().value"></circle-color>
+  <circle-property [inputType]="'color'" [(property)]="circleForm.circleColor().value">
+    Background color
+  </circle-property>
 
-  <circle-text [(text)]="circleForm.circleText().value"></circle-text>
+  <circle-property [inputType]="'text'" [(property)]="circleForm.circleText().value">
+    Circle Text
+  </circle-property>
 
-  <circle-size [(size)]="circleForm.circleSize().value">Circle Size</circle-size>
+  <circle-property [inputType]="'number'" [(property)]="circleForm.circleSize().value"
+    >Circle Size</circle-property
+  >
 
-  <circle-rotate [(rotate)]="circleForm.circleRotate().value"></circle-rotate>
+  <circle-property
+    [inputType]="'range'"
+    [(property)]="circleForm.circleRotate().value"
+    [min]="0"
+    [max]="360"
+  >
+    Circle Rotate {{ circleForm.circleRotate().value() }}
+  </circle-property>
 
   <div
     class="circle"
