@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, inject, signal } from '@angular/core';
+import { Component, inject, OnInit, signal } from '@angular/core';
 
 type AdviceSlip = {
   slip: {
@@ -12,7 +12,7 @@ type AdviceSlip = {
   selector: 'app-root',
   templateUrl: './app.html',
 })
-export class App {
+export class App implements OnInit {
   advice = signal('');
   isLoading = signal(false);
 
@@ -25,5 +25,9 @@ export class App {
       this.advice.set(adviceSlip.slip.advice);
       this.isLoading.set(false);
     });
+  }
+
+  ngOnInit(): void {
+    this.getAdvice();
   }
 }
