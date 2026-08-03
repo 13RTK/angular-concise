@@ -4,4 +4,6 @@
 } @else {
   <p>{{ isLoading() ? 'Loading...' : advice() }}</p>
 }
-<button [disabled]="isLoading()" type="button" (click)="getAdvice()">Get Advice</button>
+<button [disabled]="isLoading()" type="button" (click)="adviceStore.getAdvice()">Get Advice</button>
+
+<profile></profile>
