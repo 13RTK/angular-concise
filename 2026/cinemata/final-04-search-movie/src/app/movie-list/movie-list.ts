@@ -2,13 +2,8 @@ import { Component, inject, OnInit, signal } from '@angular/core';
 import { MovieListItem } from './movie-list-item/movie-list-item';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '@/environments/environment';
-import { Movie } from '@/types/Movie';
+import { Movie, MovieResult } from '@/types/Movie';
 import { Spinner } from '@/app/spinner/spinner';
-
-type MovieResult = {
-  page: number;
-  results: { id: number; title: string; overview: string; poster_path: string }[];
-};
 
 @Component({
   selector: 'movie-list',
@@ -23,7 +18,7 @@ export class MovieList implements OnInit {
 
   ngOnInit(): void {
     this.httpClient
-      .get<MovieResult>(environment.tmdbAPIUrl, {
+      .get<MovieResult>(environment.tmdbAPIUrl + 'trending/movie/week', {
         headers: {
           authorization: `Bearer ${environment.tmdbAPIKey}`,
         },
