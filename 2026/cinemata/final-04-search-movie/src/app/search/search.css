@@ -1,0 +1,17 @@
+.example-form {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 16px;
+
+  text-align: center;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.search-button {
+  width: 50%;
+  height: 50px;
+  font-size: large;
+}
