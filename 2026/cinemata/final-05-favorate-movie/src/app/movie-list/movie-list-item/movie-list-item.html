@@ -1,0 +1,14 @@
+<mat-card class="example-card" appearance="outlined">
+  <mat-card-header>
+    <mat-card-title>{{ movie().title }}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image [src]="movie().poster" [alt]="movie().title" />
+  <mat-card-content>
+    <p>
+      {{ movie().overview }}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button matButton>LIKE</button>
+  </mat-card-actions>
+</mat-card>
