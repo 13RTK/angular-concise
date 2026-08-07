@@ -15,7 +15,7 @@ export class App {
       return [
         ...currentTodoList,
         {
-          id: currentTodoList.length + 1,
+          id: Date.now(),
           value: this.inputText(),
           isComplete: false,
         },
