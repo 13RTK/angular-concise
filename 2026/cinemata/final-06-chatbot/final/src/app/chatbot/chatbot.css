@@ -3,6 +3,7 @@
   height: 560px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 .chat-body {
   flex: 1;

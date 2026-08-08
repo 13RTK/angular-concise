@@ -5,12 +5,13 @@ import { MatDividerModule } from '@angular/material/divider';
 import { Search } from '@/app/search/search';
 import { CurrentPageStore } from '@/app/current-page-store';
 import { Favorite } from './favorite/favorite';
+import { ChatBot } from './chatbot/chatbot';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.css',
-  imports: [Navbar, MovieList, MatDividerModule, Search, Favorite],
+  imports: [Navbar, MovieList, MatDividerModule, Search, Favorite, ChatBot],
 })
 export class App {
   currentPageStore = inject(CurrentPageStore);

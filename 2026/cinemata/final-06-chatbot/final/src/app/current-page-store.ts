@@ -8,6 +8,7 @@ export class CurrentPageStore {
   isTrending = computed(() => this.currentPage() === Page.Trending);
   isSearch = computed(() => this.currentPage() === Page.Search);
   isFavorite = computed(() => this.currentPage() === Page.Favorite);
+  isChatbot = computed(() => this.currentPage() === Page.Chatbot);
 
   changeCurrentPage(page: Page) {
     this.currentPage.set(page);

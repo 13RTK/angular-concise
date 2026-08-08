@@ -11,6 +11,7 @@
   "private": true,
   "packageManager": "pnpm@11.12.0",
   "dependencies": {
+    "@ai-sdk/deepseek": "^3.0.24",
     "@angular/cdk": "^22.1.0",
     "@angular/common": "^22.0.0",
     "@angular/compiler": "^22.0.0",
@@ -19,6 +20,7 @@
     "@angular/material": "^22.1.0",
     "@angular/platform-browser": "^22.0.0",
     "@angular/router": "^22.0.0",
+    "ai": "^7.0.56",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
   },

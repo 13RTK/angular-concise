@@ -7,6 +7,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { CdkScrollable } from '@angular/cdk/scrolling';
+import { sendText } from '@/utils/chat';
 
 interface ChatMessage {
   from: 'user' | 'bot';
@@ -57,14 +58,10 @@ export class ChatBot {
     this.scrollToBottom();
 
     // Simulate bot response
-    await new Promise((resolve) => {
-      setTimeout(() => {
-        resolve('');
-      }, 1000);
-    });
+    const modelResponse = await sendText(text);
 
     // Add bot message
-    this.messages.set([...this.messages(), { from: 'bot', text: 'Hello' }]);
+    this.messages.set([...this.messages(), { from: 'bot', text: modelResponse }]);
     this.scrollToBottom();
 
     this.isLoading.set(false);
