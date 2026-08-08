@@ -1,0 +1,5 @@
+@for (movie of favoriteMovies(); track movie.id) {
+  <movie-list-item [movie]="movie"></movie-list-item>
+} @empty {
+  <p>No favorite movies</p>
+}

@@ -1,0 +1,25 @@
+<mat-toolbar>
+  <span (click)="currentPageStore.changeCurrentPage(Page.Trending)">Cinemata</span>
+  <span class="example-spacer"></span>
+  <button
+    (click)="currentPageStore.changeCurrentPage(Page.Search)"
+    matIconButton
+    aria-label="Example icon-button with heart icon"
+  >
+    <mat-icon>search</mat-icon>
+  </button>
+  <button
+    (click)="currentPageStore.changeCurrentPage(Page.Favorite)"
+    matIconButton
+    aria-label="Example icon-button with share icon"
+  >
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button
+    (click)="currentPageStore.changeCurrentPage(Page.Chatbot)"
+    matIconButton
+    aria-label="Example icon-button with share icon"
+  >
+    <mat-icon>smart_toy</mat-icon>
+  </button>
+</mat-toolbar>
